@@ -1,0 +1,15 @@
+{
+  "appId": "quran2",
+  "appName": "Surah Yaseen Institute",
+  "port": 3012,
+  "theme": "dark",
+  "primaryColor": "#3498db",
+  "features": ["surah-reading", "translation", "tafseer", "blessings"],
+  "database": { "type": "sqlite", "name": "yaseen.db" },
+  "environment": "production",
+  "tenantId": "quran_002",
+  "description": "Learn Surah Yaseen - The Heart of Quran",
+  "surahName": "Yaseen",
+  "surahNumber": 36,
+  "verses": 83
+}

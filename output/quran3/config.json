@@ -1,0 +1,23 @@
+{
+  "appId": "quran3",
+  "appName": "Surah Rahman Center",
+  "port": 3013,
+  "theme": "dark",
+  "primaryColor": "#e67e22",
+  "features": [
+    "surah-reading",
+    "translation",
+    "mercy-themes",
+    "reflections"
+  ],
+  "database": {
+    "type": "sqlite",
+    "name": "rahman.db"
+  },
+  "environment": "production",
+  "tenantId": "quran_003",
+  "description": "Learn Surah Ar-Rahman - The Most Merciful",
+  "surahName": "Ar-Rahman",
+  "surahNumber": 55,
+  "verses": 78
+}

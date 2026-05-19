@@ -1,0 +1,1296 @@
+[2026-05-19T18:04:30.952Z] [INFO] ========================================
+[2026-05-19T18:04:30.955Z] [INFO]   ADAGDS — System Starting Up
+[2026-05-19T18:04:30.957Z] [INFO] ========================================
+[2026-05-19T18:04:30.957Z] [INFO] Starting system resource analysis...
+[2026-05-19T18:04:36.663Z] [INFO] CPU: Intel Core™ Ultra 7 256V — 8 cores
+[2026-05-19T18:04:36.664Z] [INFO] RAM: 2GB free of 16GB total
+[2026-05-19T18:04:36.664Z] [INFO] GPU: Intel(R) Arc(TM) 140V GPU (8GB)
+[2026-05-19T18:04:36.665Z] [INFO] Running Adaptive Workload Decision Engine...
+[2026-05-19T18:04:36.665Z] [INFO] Decision Engine Result: Will generate 10 applications
+[2026-05-19T18:04:36.666Z] [INFO] Reason: 8 CPU cores, 2GB free RAM
+[2026-05-19T18:04:36.670Z] [INFO] Loaded 5 configurations
+[2026-05-19T18:04:36.672Z] [INFO] Starting parallel application generation...
+[2026-05-19T18:04:36.673Z] [INFO] Job added to queue: ShopEase
+[2026-05-19T18:04:36.673Z] [INFO] Job added to queue: EduTrack
+[2026-05-19T18:04:36.673Z] [INFO] Job added to queue: HealthHub
+[2026-05-19T18:04:36.673Z] [INFO] Job added to queue: FinanceFlow
+[2026-05-19T18:04:36.674Z] [INFO] Job added to queue: TaskMaster
+[2026-05-19T18:04:36.674Z] [INFO] Total jobs queued: 5
+[2026-05-19T18:04:36.674Z] [INFO] Running batch: app1, app2, app3
+[2026-05-19T18:04:36.903Z] [INFO] ✔ app1 generated in 0.23s
+[2026-05-19T18:04:36.905Z] [INFO] ✔ app3 generated in 0.22s
+[2026-05-19T18:04:36.905Z] [INFO] ✔ app2 generated in 0.22s
+[2026-05-19T18:04:36.906Z] [INFO] Running batch: app4, app5
+[2026-05-19T18:04:37.007Z] [INFO] ✔ app4 generated in 0.10s
+[2026-05-19T18:04:37.011Z] [INFO] ✔ app5 generated in 0.10s
+[2026-05-19T18:04:37.013Z] [INFO] Build Summary — Total: 5 | Completed: 0 | Failed: 0
+[2026-05-19T18:04:37.013Z] [INFO] Launching 5 applications...
+[2026-05-19T18:04:37.014Z] [INFO] Installing dependencies for app1...
+[2026-05-19T18:05:15.186Z] [ERROR] Failed to launch app1: Command failed: npm install --prefer-offline
+[2026-05-19T18:05:15.187Z] [INFO] Installing dependencies for app2...
+[2026-05-19T18:05:22.570Z] [ERROR] Failed to launch app2: Command failed: npm install --prefer-offline
+[2026-05-19T18:05:22.571Z] [INFO] Installing dependencies for app3...
+[2026-05-19T18:05:28.253Z] [ERROR] Failed to launch app3: Command failed: npm install --prefer-offline
+[2026-05-19T18:05:28.254Z] [INFO] Installing dependencies for app4...
+[2026-05-19T18:05:33.474Z] [ERROR] Failed to launch app4: Command failed: npm install --prefer-offline
+[2026-05-19T18:05:33.474Z] [INFO] Installing dependencies for app5...
+[2026-05-19T18:05:40.131Z] [ERROR] Failed to launch app5: Command failed: npm install --prefer-offline
+[2026-05-19T18:05:40.137Z] [INFO] Proxy registered: http://localhost:8080/app1 → http://localhost:3001
+[2026-05-19T18:05:40.138Z] [INFO] Proxy registered: http://localhost:8080/app2 → http://localhost:3002
+[2026-05-19T18:05:40.139Z] [INFO] Proxy registered: http://localhost:8080/app3 → http://localhost:3003
+[2026-05-19T18:05:40.139Z] [INFO] Proxy registered: http://localhost:8080/app4 → http://localhost:3004
+[2026-05-19T18:05:40.144Z] [INFO] Proxy registered: http://localhost:8080/app5 → http://localhost:3005
+[2026-05-19T18:05:40.157Z] [INFO] Master Dashboard running at http://localhost:8080
+[2026-05-19T18:10:25.337Z] [INFO] ========================================
+[2026-05-19T18:10:25.340Z] [INFO]   ADAGDS — System Starting Up
+[2026-05-19T18:10:25.341Z] [INFO] ========================================
+[2026-05-19T18:10:25.342Z] [INFO] Starting system resource analysis...
+[2026-05-19T18:10:29.725Z] [INFO] CPU: Intel Core™ Ultra 7 256V — 8 cores
+[2026-05-19T18:10:29.725Z] [INFO] RAM: 2GB free of 16GB total
+[2026-05-19T18:10:29.725Z] [INFO] GPU: Intel(R) Arc(TM) 140V GPU (8GB)
+[2026-05-19T18:10:29.726Z] [INFO] Running Adaptive Workload Decision Engine...
+[2026-05-19T18:10:29.727Z] [INFO] Decision Engine Result: Will generate 10 applications
+[2026-05-19T18:10:29.727Z] [INFO] Reason: 8 CPU cores, 2GB free RAM
+[2026-05-19T18:10:29.730Z] [INFO] Loaded 5 configurations
+[2026-05-19T18:10:29.731Z] [INFO] Starting parallel application generation...
+[2026-05-19T18:10:29.732Z] [INFO] Job added to queue: ShopEase
+[2026-05-19T18:10:29.732Z] [INFO] Job added to queue: EduTrack
+[2026-05-19T18:10:29.733Z] [INFO] Job added to queue: HealthHub
+[2026-05-19T18:10:29.733Z] [INFO] Job added to queue: FinanceFlow
+[2026-05-19T18:10:29.733Z] [INFO] Job added to queue: TaskMaster
+[2026-05-19T18:10:29.733Z] [INFO] Total jobs queued: 5
+[2026-05-19T18:10:29.733Z] [INFO] Running batch: app1, app2, app3
+[2026-05-19T18:10:29.864Z] [INFO] ✔ app1 generated in 0.13s
+[2026-05-19T18:10:29.870Z] [INFO] ✔ app3 generated in 0.13s
+[2026-05-19T18:10:29.884Z] [INFO] ✔ app2 generated in 0.15s
+[2026-05-19T18:10:29.885Z] [INFO] Running batch: app4, app5
+[2026-05-19T18:10:30.000Z] [INFO] ✔ app5 generated in 0.11s
+[2026-05-19T18:10:30.003Z] [INFO] ✔ app4 generated in 0.12s
+[2026-05-19T18:10:30.004Z] [INFO] Build Summary — Total: 5 | Completed: 0 | Failed: 0
+[2026-05-19T18:10:30.004Z] [INFO] Launching 5 applications...
+[2026-05-19T18:10:30.005Z] [INFO] Installing dependencies for ShopEase (app1)...
+[2026-05-19T18:10:36.330Z] [ERROR] Failed to setup app1: Command failed: npm install --prefer-offline --silent
+[2026-05-19T18:10:36.330Z] [INFO] Installing dependencies for EduTrack (app2)...
+[2026-05-19T18:10:43.664Z] [ERROR] Failed to setup app2: Command failed: npm install --prefer-offline --silent
+[2026-05-19T18:10:43.665Z] [INFO] Installing dependencies for HealthHub (app3)...
+[2026-05-19T18:10:48.847Z] [ERROR] Failed to setup app3: Command failed: npm install --prefer-offline --silent
+[2026-05-19T18:10:48.847Z] [INFO] Installing dependencies for FinanceFlow (app4)...
+[2026-05-19T18:10:54.491Z] [ERROR] Failed to setup app4: Command failed: npm install --prefer-offline --silent
+[2026-05-19T18:10:54.498Z] [INFO] Installing dependencies for TaskMaster (app5)...
+[2026-05-19T18:11:00.557Z] [ERROR] Failed to setup app5: Command failed: npm install --prefer-offline --silent
+[2026-05-19T18:11:00.557Z] [INFO] Successfully started 0 applications
+[2026-05-19T18:11:00.564Z] [INFO] Proxy registered: http://localhost:8080/app1 → http://localhost:3001
+[2026-05-19T18:11:00.565Z] [INFO] Proxy registered: http://localhost:8080/app2 → http://localhost:3002
+[2026-05-19T18:11:00.566Z] [INFO] Proxy registered: http://localhost:8080/app3 → http://localhost:3003
+[2026-05-19T18:11:00.567Z] [INFO] Proxy registered: http://localhost:8080/app4 → http://localhost:3004
+[2026-05-19T18:11:00.568Z] [INFO] Proxy registered: http://localhost:8080/app5 → http://localhost:3005
+[2026-05-19T18:11:00.572Z] [INFO] ADAGDS is fully operational!
+[2026-05-19T18:11:00.575Z] [INFO] Master Dashboard running at http://localhost:8080
+[2026-05-19T18:12:49.190Z] [INFO] Shutting down all applications...
+[2026-05-19T18:13:20.168Z] [INFO] ========================================
+[2026-05-19T18:13:20.171Z] [INFO]   ADAGDS — System Starting Up
+[2026-05-19T18:13:20.171Z] [INFO] ========================================
+[2026-05-19T18:13:20.172Z] [INFO] Starting system resource analysis...
+[2026-05-19T18:13:24.934Z] [INFO] CPU: Intel Core™ Ultra 7 256V — 8 cores
+[2026-05-19T18:13:24.935Z] [INFO] RAM: 3GB free of 16GB total
+[2026-05-19T18:13:24.935Z] [INFO] GPU: Intel(R) Arc(TM) 140V GPU (8GB)
+[2026-05-19T18:13:24.936Z] [INFO] Running Adaptive Workload Decision Engine...
+[2026-05-19T18:13:24.937Z] [INFO] Decision Engine Result: Will generate 10 applications
+[2026-05-19T18:13:24.937Z] [INFO] Reason: 8 CPU cores, 3GB free RAM
+[2026-05-19T18:13:24.941Z] [INFO] Loaded 5 configurations
+[2026-05-19T18:13:24.943Z] [INFO] Starting parallel application generation...
+[2026-05-19T18:13:24.946Z] [INFO] Job added to queue: ShopEase
+[2026-05-19T18:13:24.947Z] [INFO] Job added to queue: EduTrack
+[2026-05-19T18:13:24.947Z] [INFO] Job added to queue: HealthHub
+[2026-05-19T18:13:24.947Z] [INFO] Job added to queue: FinanceFlow
+[2026-05-19T18:13:24.948Z] [INFO] Job added to queue: TaskMaster
+[2026-05-19T18:13:24.948Z] [INFO] Total jobs queued: 5
+[2026-05-19T18:13:24.948Z] [INFO] Running batch: app1, app2, app3
+[2026-05-19T18:13:25.141Z] [INFO] ✔ app3 generated in 0.18s
+[2026-05-19T18:13:25.146Z] [INFO] ✔ app2 generated in 0.19s
+[2026-05-19T18:13:25.148Z] [INFO] ✔ app1 generated in 0.20s
+[2026-05-19T18:13:25.148Z] [INFO] Running batch: app4, app5
+[2026-05-19T18:13:25.324Z] [INFO] ✔ app4 generated in 0.18s
+[2026-05-19T18:13:25.336Z] [INFO] ✔ app5 generated in 0.19s
+[2026-05-19T18:13:25.338Z] [INFO] Build Summary — Total: 5 | Completed: 0 | Failed: 0
+[2026-05-19T18:13:25.340Z] [INFO] Setting up 5 applications...
+[2026-05-19T18:13:25.342Z] [INFO] Installing dependencies for ShopEase...
+[2026-05-19T18:13:40.153Z] [ERROR] Failed to setup app1: Command failed: npm install
+npm warn deprecated prebuild-install@7.1.3: No longer maintained. Please contact the author of the relevant native addon; alternatives are available.
+npm warn cleanup Failed to remove some directories [
+npm warn cleanup   [
+npm warn cleanup     '\\\\?\\C:\\Users\\eisxh\\Desktop\\pdc\\ADAGDS\\output\\app1\\node_modules\\tar-fs',
+npm warn cleanup     [Error: EPERM: operation not permitted, rmdir 'C:\Users\eisxh\Desktop\pdc\ADAGDS\output\app1\node_modules\tar-fs\test\fixtures'] {
+npm warn cleanup       errno: -4048,
+npm warn cleanup       code: 'EPERM',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'C:\\Users\\eisxh\\Desktop\\pdc\\ADAGDS\\output\\app1\\node_modules\\tar-fs\\test\\fixtures'
+npm warn cleanup     }
+npm warn cleanup   ]
+npm warn cleanup ]
+npm error code 1
+npm error path C:\Users\eisxh\Desktop\pdc\ADAGDS\output\app1\node_modules\better-sqlite3
+npm error command failed
+npm error command C:\windows\system32\cmd.exe /d /s /c prebuild-install || node-gyp rebuild --release
+npm error prebuild-install warn install No prebuilt binaries found (target=25.2.1 runtime=node arch=x64 libc= platform=win32)
+npm error gyp info it worked if it ends with ok
+npm error gyp info using node-gyp@11.4.2
+npm error gyp info using node@25.2.1 | win32 | x64
+npm error gyp info find Python using Python version 3.9.0 found at "C:\Users\eisxh\AppData\Local\Programs\Python\Python39\python.exe"
+npm error gyp ERR! find VS 
+npm error gyp ERR! find VS msvs_version not set from command line or npm config
+npm error gyp ERR! find VS VCINSTALLDIR not set, not running in VS Command Prompt
+npm error gyp ERR! find VS could not use PowerShell to find Visual Studio 2017 or newer, try re-running with '--loglevel silly' for more details.
+npm error gyp ERR! find VS 
+npm error gyp ERR! find VS Failure details: undefined
+npm error gyp ERR! find VS unknown version "undefined" found at "C:\Program Files\Microsoft Visual Studio\18\Community"
+npm error gyp ERR! find VS could not find a version of Visual Studio 2017 or newer to use
+npm error gyp ERR! find VS not looking for VS2017 as it is only supported up to Node.js 21
+npm error gyp ERR! find VS not looking for VS2017 as it is only supported up to Node.js 21
+npm error gyp ERR! find VS not looking for VS2017 as it is only supported up to Node.js 21
+npm error gyp ERR! find VS not looking for VS2015 as it is only supported up to Node.js 18
+npm error gyp ERR! find VS not looking for VS2013 as it is only supported up to Node.js 8
+npm error gyp ERR! find VS 
+npm error gyp ERR! find VS **************************************************************
+npm error gyp ERR! find VS You need to install the latest version of Visual Studio
+npm error gyp ERR! find VS including the "Desktop development with C++" workload.
+npm error gyp ERR! find VS For more information consult the documentation at:
+npm error gyp ERR! find VS https://github.com/nodejs/node-gyp#on-windows
+npm error gyp ERR! find VS **************************************************************
+npm error gyp ERR! find VS 
+npm error gyp ERR! configure error 
+npm error gyp ERR! stack Error: Could not find any Visual Studio installation to use
+npm error gyp ERR! stack at VisualStudioFinder.fail (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\find-visualstudio.js:118:11)
+npm error gyp ERR! stack at VisualStudioFinder.findVisualStudio (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\find-visualstudio.js:74:17)
+npm error gyp ERR! stack at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+npm error gyp ERR! stack at async createBuildDir (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\configure.js:112:18)
+npm error gyp ERR! stack at async run (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\bin\node-gyp.js:81:18)
+npm error gyp ERR! System Windows_NT 10.0.26200
+npm error gyp ERR! command "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\node-gyp\\bin\\node-gyp.js" "rebuild" "--release"
+npm error gyp ERR! cwd C:\Users\eisxh\Desktop\pdc\ADAGDS\output\app1\node_modules\better-sqlite3
+npm error gyp ERR! node -v v25.2.1
+npm error gyp ERR! node-gyp -v v11.4.2
+npm error gyp ERR! not ok
+npm error A complete log of this run can be found in: C:\Users\eisxh\AppData\Local\npm-cache\_logs\2026-05-19T18_13_25_827Z-debug-0.log
+
+[2026-05-19T18:13:40.161Z] [INFO] Installing dependencies for EduTrack...
+[2026-05-19T18:13:45.664Z] [ERROR] Failed to setup app2: Command failed: npm install
+npm warn deprecated prebuild-install@7.1.3: No longer maintained. Please contact the author of the relevant native addon; alternatives are available.
+npm warn cleanup Failed to remove some directories [
+npm warn cleanup   [
+npm warn cleanup     '\\\\?\\C:\\Users\\eisxh\\Desktop\\pdc\\ADAGDS\\output\\app2\\node_modules',
+npm warn cleanup     [Error: EBUSY: resource busy or locked, rmdir 'C:\Users\eisxh\Desktop\pdc\ADAGDS\output\app2\node_modules\side-channel-weakmap'] {
+npm warn cleanup       errno: -4082,
+npm warn cleanup       code: 'EBUSY',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'C:\\Users\\eisxh\\Desktop\\pdc\\ADAGDS\\output\\app2\\node_modules\\side-channel-weakmap'
+npm warn cleanup     }
+npm warn cleanup   ],
+npm warn cleanup   [
+npm warn cleanup     '\\\\?\\C:\\Users\\eisxh\\Desktop\\pdc\\ADAGDS\\output\\app2\\node_modules\\side-channel',
+npm warn cleanup     [Error: EBUSY: resource busy or locked, rmdir 'C:\Users\eisxh\Desktop\pdc\ADAGDS\output\app2\node_modules\side-channel'] {
+npm warn cleanup       errno: -4082,
+npm warn cleanup       code: 'EBUSY',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'C:\\Users\\eisxh\\Desktop\\pdc\\ADAGDS\\output\\app2\\node_modules\\side-channel'
+npm warn cleanup     }
+npm warn cleanup   ],
+npm warn cleanup   [
+npm warn cleanup     '\\\\?\\C:\\Users\\eisxh\\Desktop\\pdc\\ADAGDS\\output\\app2\\node_modules\\tar-fs',
+npm warn cleanup     [Error: EPERM: operation not permitted, rmdir 'C:\Users\eisxh\Desktop\pdc\ADAGDS\output\app2\node_modules\tar-fs\test\fixtures\b'] {
+npm warn cleanup       errno: -4048,
+npm warn cleanup       code: 'EPERM',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'C:\\Users\\eisxh\\Desktop\\pdc\\ADAGDS\\output\\app2\\node_modules\\tar-fs\\test\\fixtures\\b'
+npm warn cleanup     }
+npm warn cleanup   ]
+npm warn cleanup ]
+npm error code 1
+npm error path C:\Users\eisxh\Desktop\pdc\ADAGDS\output\app2\node_modules\better-sqlite3
+npm error command failed
+npm error command C:\windows\system32\cmd.exe /d /s /c prebuild-install || node-gyp rebuild --release
+npm error prebuild-install warn install No prebuilt binaries found (target=25.2.1 runtime=node arch=x64 libc= platform=win32)
+npm error gyp info it worked if it ends with ok
+npm error gyp info using node-gyp@11.4.2
+npm error gyp info using node@25.2.1 | win32 | x64
+npm error gyp info find Python using Python version 3.9.0 found at "C:\Users\eisxh\AppData\Local\Programs\Python\Python39\python.exe"
+npm error gyp ERR! find VS 
+npm error gyp ERR! find VS msvs_version not set from command line or npm config
+npm error gyp ERR! find VS VCINSTALLDIR not set, not running in VS Command Prompt
+npm error gyp ERR! find VS could not use PowerShell to find Visual Studio 2017 or newer, try re-running with '--loglevel silly' for more details.
+npm error gyp ERR! find VS 
+npm error gyp ERR! find VS Failure details: undefined
+npm error gyp ERR! find VS unknown version "undefined" found at "C:\Program Files\Microsoft Visual Studio\18\Community"
+npm error gyp ERR! find VS could not find a version of Visual Studio 2017 or newer to use
+npm error gyp ERR! find VS not looking for VS2017 as it is only supported up to Node.js 21
+npm error gyp ERR! find VS not looking for VS2017 as it is only supported up to Node.js 21
+npm error gyp ERR! find VS not looking for VS2017 as it is only supported up to Node.js 21
+npm error gyp ERR! find VS not looking for VS2015 as it is only supported up to Node.js 18
+npm error gyp ERR! find VS not looking for VS2013 as it is only supported up to Node.js 8
+npm error gyp ERR! find VS 
+npm error gyp ERR! find VS **************************************************************
+npm error gyp ERR! find VS You need to install the latest version of Visual Studio
+npm error gyp ERR! find VS including the "Desktop development with C++" workload.
+npm error gyp ERR! find VS For more information consult the documentation at:
+npm error gyp ERR! find VS https://github.com/nodejs/node-gyp#on-windows
+npm error gyp ERR! find VS **************************************************************
+npm error gyp ERR! find VS 
+npm error gyp ERR! configure error 
+npm error gyp ERR! stack Error: Could not find any Visual Studio installation to use
+npm error gyp ERR! stack at VisualStudioFinder.fail (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\find-visualstudio.js:118:11)
+npm error gyp ERR! stack at VisualStudioFinder.findVisualStudio (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\find-visualstudio.js:74:17)
+npm error gyp ERR! stack at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+npm error gyp ERR! stack at async createBuildDir (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\configure.js:112:18)
+npm error gyp ERR! stack at async run (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\bin\node-gyp.js:81:18)
+npm error gyp ERR! System Windows_NT 10.0.26200
+npm error gyp ERR! command "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\node-gyp\\bin\\node-gyp.js" "rebuild" "--release"
+npm error gyp ERR! cwd C:\Users\eisxh\Desktop\pdc\ADAGDS\output\app2\node_modules\better-sqlite3
+npm error gyp ERR! node -v v25.2.1
+npm error gyp ERR! node-gyp -v v11.4.2
+npm error gyp ERR! not ok
+npm error A complete log of this run can be found in: C:\Users\eisxh\AppData\Local\npm-cache\_logs\2026-05-19T18_13_40_591Z-debug-0.log
+
+[2026-05-19T18:13:45.674Z] [INFO] Installing dependencies for HealthHub...
+[2026-05-19T18:13:51.426Z] [ERROR] Failed to setup app3: Command failed: npm install
+npm warn deprecated prebuild-install@7.1.3: No longer maintained. Please contact the author of the relevant native addon; alternatives are available.
+npm warn cleanup Failed to remove some directories [
+npm warn cleanup   [
+npm warn cleanup     '\\\\?\\C:\\Users\\eisxh\\Desktop\\pdc\\ADAGDS\\output\\app3\\node_modules\\simple-get',
+npm warn cleanup     [Error: EBUSY: resource busy or locked, rmdir 'C:\Users\eisxh\Desktop\pdc\ADAGDS\output\app3\node_modules\simple-get'] {
+npm warn cleanup       errno: -4082,
+npm warn cleanup       code: 'EBUSY',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'C:\\Users\\eisxh\\Desktop\\pdc\\ADAGDS\\output\\app3\\node_modules\\simple-get'
+npm warn cleanup     }
+npm warn cleanup   ],
+npm warn cleanup   [
+npm warn cleanup     '\\\\?\\C:\\Users\\eisxh\\Desktop\\pdc\\ADAGDS\\output\\app3\\node_modules\\mime',
+npm warn cleanup     [Error: EPERM: operation not permitted, rmdir 'C:\Users\eisxh\Desktop\pdc\ADAGDS\output\app3\node_modules\mime\src'] {
+npm warn cleanup       errno: -4048,
+npm warn cleanup       code: 'EPERM',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'C:\\Users\\eisxh\\Desktop\\pdc\\ADAGDS\\output\\app3\\node_modules\\mime\\src'
+npm warn cleanup     }
+npm warn cleanup   ]
+npm warn cleanup ]
+npm error code 1
+npm error path C:\Users\eisxh\Desktop\pdc\ADAGDS\output\app3\node_modules\better-sqlite3
+npm error command failed
+npm error command C:\windows\system32\cmd.exe /d /s /c prebuild-install || node-gyp rebuild --release
+npm error prebuild-install warn install No prebuilt binaries found (target=25.2.1 runtime=node arch=x64 libc= platform=win32)
+npm error gyp info it worked if it ends with ok
+npm error gyp info using node-gyp@11.4.2
+npm error gyp info using node@25.2.1 | win32 | x64
+npm error gyp info find Python using Python version 3.9.0 found at "C:\Users\eisxh\AppData\Local\Programs\Python\Python39\python.exe"
+npm error gyp ERR! find VS 
+npm error gyp ERR! find VS msvs_version not set from command line or npm config
+npm error gyp ERR! find VS VCINSTALLDIR not set, not running in VS Command Prompt
+npm error gyp ERR! find VS could not use PowerShell to find Visual Studio 2017 or newer, try re-running with '--loglevel silly' for more details.
+npm error gyp ERR! find VS 
+npm error gyp ERR! find VS Failure details: undefined
+npm error gyp ERR! find VS unknown version "undefined" found at "C:\Program Files\Microsoft Visual Studio\18\Community"
+npm error gyp ERR! find VS could not find a version of Visual Studio 2017 or newer to use
+npm error gyp ERR! find VS not looking for VS2017 as it is only supported up to Node.js 21
+npm error gyp ERR! find VS not looking for VS2017 as it is only supported up to Node.js 21
+npm error gyp ERR! find VS not looking for VS2017 as it is only supported up to Node.js 21
+npm error gyp ERR! find VS not looking for VS2015 as it is only supported up to Node.js 18
+npm error gyp ERR! find VS not looking for VS2013 as it is only supported up to Node.js 8
+npm error gyp ERR! find VS 
+npm error gyp ERR! find VS **************************************************************
+npm error gyp ERR! find VS You need to install the latest version of Visual Studio
+npm error gyp ERR! find VS including the "Desktop development with C++" workload.
+npm error gyp ERR! find VS For more information consult the documentation at:
+npm error gyp ERR! find VS https://github.com/nodejs/node-gyp#on-windows
+npm error gyp ERR! find VS **************************************************************
+npm error gyp ERR! find VS 
+npm error gyp ERR! configure error 
+npm error gyp ERR! stack Error: Could not find any Visual Studio installation to use
+npm error gyp ERR! stack at VisualStudioFinder.fail (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\find-visualstudio.js:118:11)
+npm error gyp ERR! stack at VisualStudioFinder.findVisualStudio (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\find-visualstudio.js:74:17)
+npm error gyp ERR! stack at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+npm error gyp ERR! stack at async createBuildDir (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\configure.js:112:18)
+npm error gyp ERR! stack at async run (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\bin\node-gyp.js:81:18)
+npm error gyp ERR! System Windows_NT 10.0.26200
+npm error gyp ERR! command "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\node-gyp\\bin\\node-gyp.js" "rebuild" "--release"
+npm error gyp ERR! cwd C:\Users\eisxh\Desktop\pdc\ADAGDS\output\app3\node_modules\better-sqlite3
+npm error gyp ERR! node -v v25.2.1
+npm error gyp ERR! node-gyp -v v11.4.2
+npm error gyp ERR! not ok
+npm error A complete log of this run can be found in: C:\Users\eisxh\AppData\Local\npm-cache\_logs\2026-05-19T18_13_46_165Z-debug-0.log
+
+[2026-05-19T18:13:51.427Z] [INFO] Installing dependencies for FinanceFlow...
+[2026-05-19T18:13:59.229Z] [ERROR] Failed to setup app4: Command failed: npm install
+npm warn deprecated prebuild-install@7.1.3: No longer maintained. Please contact the author of the relevant native addon; alternatives are available.
+npm warn cleanup Failed to remove some directories [
+npm warn cleanup   [
+npm warn cleanup     '\\\\?\\C:\\Users\\eisxh\\Desktop\\pdc\\ADAGDS\\output\\app4\\node_modules\\express',
+npm warn cleanup     [Error: EPERM: operation not permitted, rmdir 'C:\Users\eisxh\Desktop\pdc\ADAGDS\output\app4\node_modules\express\lib\middleware'] {
+npm warn cleanup       errno: -4048,
+npm warn cleanup       code: 'EPERM',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'C:\\Users\\eisxh\\Desktop\\pdc\\ADAGDS\\output\\app4\\node_modules\\express\\lib\\middleware'
+npm warn cleanup     }
+npm warn cleanup   ],
+npm warn cleanup   [
+npm warn cleanup     '\\\\?\\C:\\Users\\eisxh\\Desktop\\pdc\\ADAGDS\\output\\app4\\node_modules',
+npm warn cleanup     [Error: EPERM: operation not permitted, rmdir 'C:\Users\eisxh\Desktop\pdc\ADAGDS\output\app4\node_modules\tar-fs\test\fixtures\b'] {
+npm warn cleanup       errno: -4048,
+npm warn cleanup       code: 'EPERM',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'C:\\Users\\eisxh\\Desktop\\pdc\\ADAGDS\\output\\app4\\node_modules\\tar-fs\\test\\fixtures\\b'
+npm warn cleanup     }
+npm warn cleanup   ]
+npm warn cleanup ]
+npm error code 1
+npm error path C:\Users\eisxh\Desktop\pdc\ADAGDS\output\app4\node_modules\better-sqlite3
+npm error command failed
+npm error command C:\windows\system32\cmd.exe /d /s /c prebuild-install || node-gyp rebuild --release
+npm error prebuild-install warn install No prebuilt binaries found (target=25.2.1 runtime=node arch=x64 libc= platform=win32)
+npm error gyp info it worked if it ends with ok
+npm error gyp info using node-gyp@11.4.2
+npm error gyp info using node@25.2.1 | win32 | x64
+npm error gyp info find Python using Python version 3.9.0 found at "C:\Users\eisxh\AppData\Local\Programs\Python\Python39\python.exe"
+npm error gyp ERR! find VS 
+npm error gyp ERR! find VS msvs_version not set from command line or npm config
+npm error gyp ERR! find VS VCINSTALLDIR not set, not running in VS Command Prompt
+npm error gyp ERR! find VS could not use PowerShell to find Visual Studio 2017 or newer, try re-running with '--loglevel silly' for more details.
+npm error gyp ERR! find VS 
+npm error gyp ERR! find VS Failure details: undefined
+npm error gyp ERR! find VS unknown version "undefined" found at "C:\Program Files\Microsoft Visual Studio\18\Community"
+npm error gyp ERR! find VS could not find a version of Visual Studio 2017 or newer to use
+npm error gyp ERR! find VS not looking for VS2017 as it is only supported up to Node.js 21
+npm error gyp ERR! find VS not looking for VS2017 as it is only supported up to Node.js 21
+npm error gyp ERR! find VS not looking for VS2017 as it is only supported up to Node.js 21
+npm error gyp ERR! find VS not looking for VS2015 as it is only supported up to Node.js 18
+npm error gyp ERR! find VS not looking for VS2013 as it is only supported up to Node.js 8
+npm error gyp ERR! find VS 
+npm error gyp ERR! find VS **************************************************************
+npm error gyp ERR! find VS You need to install the latest version of Visual Studio
+npm error gyp ERR! find VS including the "Desktop development with C++" workload.
+npm error gyp ERR! find VS For more information consult the documentation at:
+npm error gyp ERR! find VS https://github.com/nodejs/node-gyp#on-windows
+npm error gyp ERR! find VS **************************************************************
+npm error gyp ERR! find VS 
+npm error gyp ERR! configure error 
+npm error gyp ERR! stack Error: Could not find any Visual Studio installation to use
+npm error gyp ERR! stack at VisualStudioFinder.fail (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\find-visualstudio.js:118:11)
+npm error gyp ERR! stack at VisualStudioFinder.findVisualStudio (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\find-visualstudio.js:74:17)
+npm error gyp ERR! stack at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+npm error gyp ERR! stack at async createBuildDir (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\configure.js:112:18)
+npm error gyp ERR! stack at async run (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\bin\node-gyp.js:81:18)
+npm error gyp ERR! System Windows_NT 10.0.26200
+npm error gyp ERR! command "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\node-gyp\\bin\\node-gyp.js" "rebuild" "--release"
+npm error gyp ERR! cwd C:\Users\eisxh\Desktop\pdc\ADAGDS\output\app4\node_modules\better-sqlite3
+npm error gyp ERR! node -v v25.2.1
+npm error gyp ERR! node-gyp -v v11.4.2
+npm error gyp ERR! not ok
+npm error A complete log of this run can be found in: C:\Users\eisxh\AppData\Local\npm-cache\_logs\2026-05-19T18_13_51_886Z-debug-0.log
+
+[2026-05-19T18:13:59.232Z] [INFO] Installing dependencies for TaskMaster...
+[2026-05-19T18:14:04.386Z] [ERROR] Failed to setup app5: Command failed: npm install
+npm warn deprecated prebuild-install@7.1.3: No longer maintained. Please contact the author of the relevant native addon; alternatives are available.
+npm warn cleanup Failed to remove some directories [
+npm warn cleanup   [
+npm warn cleanup     '\\\\?\\C:\\Users\\eisxh\\Desktop\\pdc\\ADAGDS\\output\\app5\\node_modules',
+npm warn cleanup     [Error: EPERM: operation not permitted, rmdir 'C:\Users\eisxh\Desktop\pdc\ADAGDS\output\app5\node_modules\better-sqlite3\deps\sqlite3'] {
+npm warn cleanup       errno: -4048,
+npm warn cleanup       code: 'EPERM',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'C:\\Users\\eisxh\\Desktop\\pdc\\ADAGDS\\output\\app5\\node_modules\\better-sqlite3\\deps\\sqlite3'
+npm warn cleanup     }
+npm warn cleanup   ],
+npm warn cleanup   [
+npm warn cleanup     '\\\\?\\C:\\Users\\eisxh\\Desktop\\pdc\\ADAGDS\\output\\app5\\node_modules\\tar-fs',
+npm warn cleanup     [Error: EPERM: operation not permitted, rmdir 'C:\Users\eisxh\Desktop\pdc\ADAGDS\output\app5\node_modules\tar-fs'] {
+npm warn cleanup       errno: -4048,
+npm warn cleanup       code: 'EPERM',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'C:\\Users\\eisxh\\Desktop\\pdc\\ADAGDS\\output\\app5\\node_modules\\tar-fs'
+npm warn cleanup     }
+npm warn cleanup   ]
+npm warn cleanup ]
+npm error code 1
+npm error path C:\Users\eisxh\Desktop\pdc\ADAGDS\output\app5\node_modules\better-sqlite3
+npm error command failed
+npm error command C:\windows\system32\cmd.exe /d /s /c prebuild-install || node-gyp rebuild --release
+npm error prebuild-install warn install No prebuilt binaries found (target=25.2.1 runtime=node arch=x64 libc= platform=win32)
+npm error gyp info it worked if it ends with ok
+npm error gyp info using node-gyp@11.4.2
+npm error gyp info using node@25.2.1 | win32 | x64
+npm error gyp info find Python using Python version 3.9.0 found at "C:\Users\eisxh\AppData\Local\Programs\Python\Python39\python.exe"
+npm error gyp ERR! find VS 
+npm error gyp ERR! find VS msvs_version not set from command line or npm config
+npm error gyp ERR! find VS VCINSTALLDIR not set, not running in VS Command Prompt
+npm error gyp ERR! find VS could not use PowerShell to find Visual Studio 2017 or newer, try re-running with '--loglevel silly' for more details.
+npm error gyp ERR! find VS 
+npm error gyp ERR! find VS Failure details: undefined
+npm error gyp ERR! find VS unknown version "undefined" found at "C:\Program Files\Microsoft Visual Studio\18\Community"
+npm error gyp ERR! find VS could not find a version of Visual Studio 2017 or newer to use
+npm error gyp ERR! find VS not looking for VS2017 as it is only supported up to Node.js 21
+npm error gyp ERR! find VS not looking for VS2017 as it is only supported up to Node.js 21
+npm error gyp ERR! find VS not looking for VS2017 as it is only supported up to Node.js 21
+npm error gyp ERR! find VS not looking for VS2015 as it is only supported up to Node.js 18
+npm error gyp ERR! find VS not looking for VS2013 as it is only supported up to Node.js 8
+npm error gyp ERR! find VS 
+npm error gyp ERR! find VS **************************************************************
+npm error gyp ERR! find VS You need to install the latest version of Visual Studio
+npm error gyp ERR! find VS including the "Desktop development with C++" workload.
+npm error gyp ERR! find VS For more information consult the documentation at:
+npm error gyp ERR! find VS https://github.com/nodejs/node-gyp#on-windows
+npm error gyp ERR! find VS **************************************************************
+npm error gyp ERR! find VS 
+npm error gyp ERR! configure error 
+npm error gyp ERR! stack Error: Could not find any Visual Studio installation to use
+npm error gyp ERR! stack at VisualStudioFinder.fail (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\find-visualstudio.js:118:11)
+npm error gyp ERR! stack at VisualStudioFinder.findVisualStudio (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\find-visualstudio.js:74:17)
+npm error gyp ERR! stack at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+npm error gyp ERR! stack at async createBuildDir (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\configure.js:112:18)
+npm error gyp ERR! stack at async run (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\bin\node-gyp.js:81:18)
+npm error gyp ERR! System Windows_NT 10.0.26200
+npm error gyp ERR! command "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\node-gyp\\bin\\node-gyp.js" "rebuild" "--release"
+npm error gyp ERR! cwd C:\Users\eisxh\Desktop\pdc\ADAGDS\output\app5\node_modules\better-sqlite3
+npm error gyp ERR! node -v v25.2.1
+npm error gyp ERR! node-gyp -v v11.4.2
+npm error gyp ERR! not ok
+npm error A complete log of this run can be found in: C:\Users\eisxh\AppData\Local\npm-cache\_logs\2026-05-19T18_13_59_628Z-debug-0.log
+
+[2026-05-19T18:14:04.387Z] [INFO] ✓ Successfully started 0 applications
+[2026-05-19T18:14:04.389Z] [INFO] Proxy registered: http://localhost:8080/app1 → http://localhost:3001
+[2026-05-19T18:14:04.390Z] [INFO] Proxy registered: http://localhost:8080/app2 → http://localhost:3002
+[2026-05-19T18:14:04.390Z] [INFO] Proxy registered: http://localhost:8080/app3 → http://localhost:3003
+[2026-05-19T18:14:04.390Z] [INFO] Proxy registered: http://localhost:8080/app4 → http://localhost:3004
+[2026-05-19T18:14:04.390Z] [INFO] Proxy registered: http://localhost:8080/app5 → http://localhost:3005
+[2026-05-19T18:14:04.393Z] [INFO] Master Dashboard running at http://localhost:8080
+[2026-05-19T18:18:15.624Z] [INFO] ========================================
+[2026-05-19T18:18:15.627Z] [INFO]   ADAGDS — System Starting Up
+[2026-05-19T18:18:15.627Z] [INFO] ========================================
+[2026-05-19T18:18:15.627Z] [INFO] Starting system resource analysis...
+[2026-05-19T18:18:20.999Z] [INFO] CPU: Intel Core™ Ultra 7 256V — 8 cores
+[2026-05-19T18:18:21.000Z] [INFO] RAM: 3GB free of 16GB total
+[2026-05-19T18:18:21.001Z] [INFO] GPU: Intel(R) Arc(TM) 140V GPU (8GB)
+[2026-05-19T18:18:21.001Z] [INFO] Running Adaptive Workload Decision Engine...
+[2026-05-19T18:18:21.002Z] [INFO] Decision Engine Result: Will generate 10 applications
+[2026-05-19T18:18:21.003Z] [INFO] Reason: 8 CPU cores, 3GB free RAM
+[2026-05-19T18:18:21.015Z] [INFO] Loaded 5 configurations
+[2026-05-19T18:18:21.018Z] [INFO] Starting parallel application generation...
+[2026-05-19T18:18:21.021Z] [INFO] Job added to queue: Surah Al-Fatiha Academy
+[2026-05-19T18:18:21.022Z] [INFO] Job added to queue: Surah Yaseen Institute
+[2026-05-19T18:18:21.022Z] [INFO] Job added to queue: HealthHub
+[2026-05-19T18:18:21.023Z] [INFO] Job added to queue: FinanceFlow
+[2026-05-19T18:18:21.026Z] [INFO] Job added to queue: TaskMaster
+[2026-05-19T18:18:21.026Z] [INFO] Total jobs queued: 5
+[2026-05-19T18:18:21.027Z] [INFO] Running batch: quran1, quran2, app3
+[2026-05-19T18:18:21.233Z] [INFO] ✔ app3 generated in 0.20s
+[2026-05-19T18:18:21.244Z] [INFO] ✔ quran1 generated in 0.22s
+[2026-05-19T18:18:21.249Z] [INFO] ✔ quran2 generated in 0.22s
+[2026-05-19T18:18:21.250Z] [INFO] Running batch: app4, app5
+[2026-05-19T18:18:21.433Z] [INFO] ✔ app5 generated in 0.18s
+[2026-05-19T18:18:21.439Z] [INFO] ✔ app4 generated in 0.19s
+[2026-05-19T18:18:21.440Z] [INFO] Build Summary — Total: 5 | Completed: 0 | Failed: 0
+[2026-05-19T18:18:21.442Z] [INFO] Setting up 5 applications...
+[2026-05-19T18:18:21.445Z] [INFO] Installing dependencies for Surah Al-Fatiha Academy...
+[2026-05-19T18:18:28.265Z] [ERROR] Failed to setup quran1: Command failed: npm install
+npm warn deprecated prebuild-install@7.1.3: No longer maintained. Please contact the author of the relevant native addon; alternatives are available.
+npm warn cleanup Failed to remove some directories [
+npm warn cleanup   [
+npm warn cleanup     '\\\\?\\C:\\Users\\eisxh\\Desktop\\pdc\\ADAGDS\\output\\quran1\\node_modules\\readable-stream',
+npm warn cleanup     [Error: EPERM: operation not permitted, rmdir 'C:\Users\eisxh\Desktop\pdc\ADAGDS\output\quran1\node_modules\readable-stream\lib'] {
+npm warn cleanup       errno: -4048,
+npm warn cleanup       code: 'EPERM',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'C:\\Users\\eisxh\\Desktop\\pdc\\ADAGDS\\output\\quran1\\node_modules\\readable-stream\\lib'
+npm warn cleanup     }
+npm warn cleanup   ]
+npm warn cleanup ]
+npm error code 1
+npm error path C:\Users\eisxh\Desktop\pdc\ADAGDS\output\quran1\node_modules\better-sqlite3
+npm error command failed
+npm error command C:\windows\system32\cmd.exe /d /s /c prebuild-install || node-gyp rebuild --release
+npm error prebuild-install warn install No prebuilt binaries found (target=25.2.1 runtime=node arch=x64 libc= platform=win32)
+npm error gyp info it worked if it ends with ok
+npm error gyp info using node-gyp@11.4.2
+npm error gyp info using node@25.2.1 | win32 | x64
+npm error gyp info find Python using Python version 3.9.0 found at "C:\Users\eisxh\AppData\Local\Programs\Python\Python39\python.exe"
+npm error gyp ERR! find VS 
+npm error gyp ERR! find VS msvs_version not set from command line or npm config
+npm error gyp ERR! find VS VCINSTALLDIR not set, not running in VS Command Prompt
+npm error gyp ERR! find VS could not use PowerShell to find Visual Studio 2017 or newer, try re-running with '--loglevel silly' for more details.
+npm error gyp ERR! find VS 
+npm error gyp ERR! find VS Failure details: undefined
+npm error gyp ERR! find VS unknown version "undefined" found at "C:\Program Files\Microsoft Visual Studio\18\Community"
+npm error gyp ERR! find VS could not find a version of Visual Studio 2017 or newer to use
+npm error gyp ERR! find VS not looking for VS2017 as it is only supported up to Node.js 21
+npm error gyp ERR! find VS not looking for VS2017 as it is only supported up to Node.js 21
+npm error gyp ERR! find VS not looking for VS2017 as it is only supported up to Node.js 21
+npm error gyp ERR! find VS not looking for VS2015 as it is only supported up to Node.js 18
+npm error gyp ERR! find VS not looking for VS2013 as it is only supported up to Node.js 8
+npm error gyp ERR! find VS 
+npm error gyp ERR! find VS **************************************************************
+npm error gyp ERR! find VS You need to install the latest version of Visual Studio
+npm error gyp ERR! find VS including the "Desktop development with C++" workload.
+npm error gyp ERR! find VS For more information consult the documentation at:
+npm error gyp ERR! find VS https://github.com/nodejs/node-gyp#on-windows
+npm error gyp ERR! find VS **************************************************************
+npm error gyp ERR! find VS 
+npm error gyp ERR! configure error 
+npm error gyp ERR! stack Error: Could not find any Visual Studio installation to use
+npm error gyp ERR! stack at VisualStudioFinder.fail (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\find-visualstudio.js:118:11)
+npm error gyp ERR! stack at VisualStudioFinder.findVisualStudio (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\find-visualstudio.js:74:17)
+npm error gyp ERR! stack at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+npm error gyp ERR! stack at async createBuildDir (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\configure.js:112:18)
+npm error gyp ERR! stack at async run (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\bin\node-gyp.js:81:18)
+npm error gyp ERR! System Windows_NT 10.0.26200
+npm error gyp ERR! command "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\node-gyp\\bin\\node-gyp.js" "rebuild" "--release"
+npm error gyp ERR! cwd C:\Users\eisxh\Desktop\pdc\ADAGDS\output\quran1\node_modules\better-sqlite3
+npm error gyp ERR! node -v v25.2.1
+npm error gyp ERR! node-gyp -v v11.4.2
+npm error gyp ERR! not ok
+npm error A complete log of this run can be found in: C:\Users\eisxh\AppData\Local\npm-cache\_logs\2026-05-19T18_18_21_778Z-debug-0.log
+
+[2026-05-19T18:18:28.266Z] [INFO] Installing dependencies for Surah Yaseen Institute...
+[2026-05-19T18:18:42.337Z] [ERROR] Failed to setup quran2: Command failed: npm install
+npm warn deprecated prebuild-install@7.1.3: No longer maintained. Please contact the author of the relevant native addon; alternatives are available.
+npm error code 1
+npm error path C:\Users\eisxh\Desktop\pdc\ADAGDS\output\quran2\node_modules\better-sqlite3
+npm error command failed
+npm error command C:\windows\system32\cmd.exe /d /s /c prebuild-install || node-gyp rebuild --release
+npm error prebuild-install warn install No prebuilt binaries found (target=25.2.1 runtime=node arch=x64 libc= platform=win32)
+npm error gyp info it worked if it ends with ok
+npm error gyp info using node-gyp@11.4.2
+npm error gyp info using node@25.2.1 | win32 | x64
+npm error gyp info find Python using Python version 3.9.0 found at "C:\Users\eisxh\AppData\Local\Programs\Python\Python39\python.exe"
+npm error gyp ERR! find VS 
+npm error gyp ERR! find VS msvs_version not set from command line or npm config
+npm error gyp ERR! find VS VCINSTALLDIR not set, not running in VS Command Prompt
+npm error gyp ERR! find VS could not use PowerShell to find Visual Studio 2017 or newer, try re-running with '--loglevel silly' for more details.
+npm error gyp ERR! find VS 
+npm error gyp ERR! find VS Failure details: undefined
+npm error gyp ERR! find VS unknown version "undefined" found at "C:\Program Files\Microsoft Visual Studio\18\Community"
+npm error gyp ERR! find VS could not find a version of Visual Studio 2017 or newer to use
+npm error gyp ERR! find VS not looking for VS2017 as it is only supported up to Node.js 21
+npm error gyp ERR! find VS not looking for VS2017 as it is only supported up to Node.js 21
+npm error gyp ERR! find VS not looking for VS2017 as it is only supported up to Node.js 21
+npm error gyp ERR! find VS not looking for VS2015 as it is only supported up to Node.js 18
+npm error gyp ERR! find VS not looking for VS2013 as it is only supported up to Node.js 8
+npm error gyp ERR! find VS 
+npm error gyp ERR! find VS **************************************************************
+npm error gyp ERR! find VS You need to install the latest version of Visual Studio
+npm error gyp ERR! find VS including the "Desktop development with C++" workload.
+npm error gyp ERR! find VS For more information consult the documentation at:
+npm error gyp ERR! find VS https://github.com/nodejs/node-gyp#on-windows
+npm error gyp ERR! find VS **************************************************************
+npm error gyp ERR! find VS 
+npm error gyp ERR! configure error 
+npm error gyp ERR! stack Error: Could not find any Visual Studio installation to use
+npm error gyp ERR! stack at VisualStudioFinder.fail (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\find-visualstudio.js:118:11)
+npm error gyp ERR! stack at VisualStudioFinder.findVisualStudio (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\find-visualstudio.js:74:17)
+npm error gyp ERR! stack at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+npm error gyp ERR! stack at async createBuildDir (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\configure.js:112:18)
+npm error gyp ERR! stack at async run (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\bin\node-gyp.js:81:18)
+npm error gyp ERR! System Windows_NT 10.0.26200
+npm error gyp ERR! command "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\node-gyp\\bin\\node-gyp.js" "rebuild" "--release"
+npm error gyp ERR! cwd C:\Users\eisxh\Desktop\pdc\ADAGDS\output\quran2\node_modules\better-sqlite3
+npm error gyp ERR! node -v v25.2.1
+npm error gyp ERR! node-gyp -v v11.4.2
+npm error gyp ERR! not ok
+npm error A complete log of this run can be found in: C:\Users\eisxh\AppData\Local\npm-cache\_logs\2026-05-19T18_18_28_753Z-debug-0.log
+
+[2026-05-19T18:18:42.346Z] [INFO] Installing dependencies for HealthHub...
+[2026-05-19T18:18:50.099Z] [ERROR] Failed to setup app3: Command failed: npm install
+npm warn deprecated prebuild-install@7.1.3: No longer maintained. Please contact the author of the relevant native addon; alternatives are available.
+npm warn cleanup Failed to remove some directories [
+npm warn cleanup   [
+npm warn cleanup     '\\\\?\\C:\\Users\\eisxh\\Desktop\\pdc\\ADAGDS\\output\\app3\\node_modules',
+npm warn cleanup     [Error: EPERM: operation not permitted, rmdir 'C:\Users\eisxh\Desktop\pdc\ADAGDS\output\app3\node_modules\tar-fs\test\fixtures\b'] {
+npm warn cleanup       errno: -4048,
+npm warn cleanup       code: 'EPERM',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'C:\\Users\\eisxh\\Desktop\\pdc\\ADAGDS\\output\\app3\\node_modules\\tar-fs\\test\\fixtures\\b'
+npm warn cleanup     }
+npm warn cleanup   ]
+npm warn cleanup ]
+npm error code 1
+npm error path C:\Users\eisxh\Desktop\pdc\ADAGDS\output\app3\node_modules\better-sqlite3
+npm error command failed
+npm error command C:\windows\system32\cmd.exe /d /s /c prebuild-install || node-gyp rebuild --release
+npm error prebuild-install warn install No prebuilt binaries found (target=25.2.1 runtime=node arch=x64 libc= platform=win32)
+npm error gyp info it worked if it ends with ok
+npm error gyp info using node-gyp@11.4.2
+npm error gyp info using node@25.2.1 | win32 | x64
+npm error gyp info find Python using Python version 3.9.0 found at "C:\Users\eisxh\AppData\Local\Programs\Python\Python39\python.exe"
+npm error gyp ERR! find VS 
+npm error gyp ERR! find VS msvs_version not set from command line or npm config
+npm error gyp ERR! find VS VCINSTALLDIR not set, not running in VS Command Prompt
+npm error gyp ERR! find VS could not use PowerShell to find Visual Studio 2017 or newer, try re-running with '--loglevel silly' for more details.
+npm error gyp ERR! find VS 
+npm error gyp ERR! find VS Failure details: undefined
+npm error gyp ERR! find VS unknown version "undefined" found at "C:\Program Files\Microsoft Visual Studio\18\Community"
+npm error gyp ERR! find VS could not find a version of Visual Studio 2017 or newer to use
+npm error gyp ERR! find VS not looking for VS2017 as it is only supported up to Node.js 21
+npm error gyp ERR! find VS not looking for VS2017 as it is only supported up to Node.js 21
+npm error gyp ERR! find VS not looking for VS2017 as it is only supported up to Node.js 21
+npm error gyp ERR! find VS not looking for VS2015 as it is only supported up to Node.js 18
+npm error gyp ERR! find VS not looking for VS2013 as it is only supported up to Node.js 8
+npm error gyp ERR! find VS 
+npm error gyp ERR! find VS **************************************************************
+npm error gyp ERR! find VS You need to install the latest version of Visual Studio
+npm error gyp ERR! find VS including the "Desktop development with C++" workload.
+npm error gyp ERR! find VS For more information consult the documentation at:
+npm error gyp ERR! find VS https://github.com/nodejs/node-gyp#on-windows
+npm error gyp ERR! find VS **************************************************************
+npm error gyp ERR! find VS 
+npm error gyp ERR! configure error 
+npm error gyp ERR! stack Error: Could not find any Visual Studio installation to use
+npm error gyp ERR! stack at VisualStudioFinder.fail (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\find-visualstudio.js:118:11)
+npm error gyp ERR! stack at VisualStudioFinder.findVisualStudio (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\find-visualstudio.js:74:17)
+npm error gyp ERR! stack at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+npm error gyp ERR! stack at async createBuildDir (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\configure.js:112:18)
+npm error gyp ERR! stack at async run (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\bin\node-gyp.js:81:18)
+npm error gyp ERR! System Windows_NT 10.0.26200
+npm error gyp ERR! command "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\node-gyp\\bin\\node-gyp.js" "rebuild" "--release"
+npm error gyp ERR! cwd C:\Users\eisxh\Desktop\pdc\ADAGDS\output\app3\node_modules\better-sqlite3
+npm error gyp ERR! node -v v25.2.1
+npm error gyp ERR! node-gyp -v v11.4.2
+npm error gyp ERR! not ok
+npm error A complete log of this run can be found in: C:\Users\eisxh\AppData\Local\npm-cache\_logs\2026-05-19T18_18_42_787Z-debug-0.log
+
+[2026-05-19T18:18:50.100Z] [INFO] Starting FinanceFlow on port 3004...
+[2026-05-19T18:18:51.620Z] [INFO] Starting TaskMaster on port 3005...
+[2026-05-19T18:18:53.139Z] [INFO] ✓ Successfully started 2 applications
+[2026-05-19T18:21:24.720Z] [INFO] ========================================
+[2026-05-19T18:21:24.723Z] [INFO]   ADAGDS — System Starting Up
+[2026-05-19T18:21:24.724Z] [INFO] ========================================
+[2026-05-19T18:21:24.725Z] [INFO] Starting system resource analysis...
+[2026-05-19T18:21:29.434Z] [INFO] CPU: Intel Core™ Ultra 7 256V — 8 cores
+[2026-05-19T18:21:29.435Z] [INFO] RAM: 3GB free of 16GB total
+[2026-05-19T18:21:29.435Z] [INFO] GPU: Intel(R) Arc(TM) 140V GPU (8GB)
+[2026-05-19T18:21:29.435Z] [INFO] Running Adaptive Workload Decision Engine...
+[2026-05-19T18:21:29.435Z] [INFO] Decision Engine Result: Will generate 10 applications
+[2026-05-19T18:21:29.436Z] [INFO] Reason: 8 CPU cores, 3GB free RAM
+[2026-05-19T18:21:29.439Z] [INFO] Loaded 5 configurations
+[2026-05-19T18:21:29.440Z] [INFO] Starting parallel application generation...
+[2026-05-19T18:21:29.441Z] [INFO] Job added to queue: Surah Al-Fatiha Academy
+[2026-05-19T18:21:29.442Z] [INFO] Job added to queue: Surah Yaseen Institute
+[2026-05-19T18:21:29.447Z] [INFO] Job added to queue: HealthHub
+[2026-05-19T18:21:29.447Z] [INFO] Job added to queue: FinanceFlow
+[2026-05-19T18:21:29.448Z] [INFO] Job added to queue: TaskMaster
+[2026-05-19T18:21:29.448Z] [INFO] Total jobs queued: 5
+[2026-05-19T18:21:29.448Z] [INFO] Running batch: quran1, quran2, app3
+[2026-05-19T18:21:29.585Z] [INFO] ✔ quran1 generated in 0.14s
+[2026-05-19T18:21:29.593Z] [INFO] ✔ app3 generated in 0.14s
+[2026-05-19T18:21:29.608Z] [INFO] ✔ quran2 generated in 0.16s
+[2026-05-19T18:21:29.615Z] [INFO] Running batch: app4, app5
+[2026-05-19T18:21:29.721Z] [INFO] ✔ app4 generated in 0.10s
+[2026-05-19T18:21:29.723Z] [INFO] ✔ app5 generated in 0.11s
+[2026-05-19T18:21:29.724Z] [INFO] Build Summary — Total: 5 | Completed: 0 | Failed: 0
+[2026-05-19T18:21:29.725Z] [INFO] Setting up 5 applications...
+[2026-05-19T18:21:29.727Z] [INFO] Installing dependencies for Surah Al-Fatiha Academy...
+[2026-05-19T18:21:37.675Z] [ERROR] Failed to setup quran1: Command failed: npm install
+npm warn deprecated prebuild-install@7.1.3: No longer maintained. Please contact the author of the relevant native addon; alternatives are available.
+npm warn cleanup Failed to remove some directories [
+npm warn cleanup   [
+npm warn cleanup     '\\\\?\\C:\\Users\\eisxh\\Desktop\\pdc\\ADAGDS\\output\\quran1\\node_modules',
+npm warn cleanup     [Error: EPERM: operation not permitted, rmdir 'C:\Users\eisxh\Desktop\pdc\ADAGDS\output\quran1\node_modules\better-sqlite3\deps\sqlite3'] {
+npm warn cleanup       errno: -4048,
+npm warn cleanup       code: 'EPERM',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'C:\\Users\\eisxh\\Desktop\\pdc\\ADAGDS\\output\\quran1\\node_modules\\better-sqlite3\\deps\\sqlite3'
+npm warn cleanup     }
+npm warn cleanup   ]
+npm warn cleanup ]
+npm error code 1
+npm error path C:\Users\eisxh\Desktop\pdc\ADAGDS\output\quran1\node_modules\better-sqlite3
+npm error command failed
+npm error command C:\windows\system32\cmd.exe /d /s /c prebuild-install || node-gyp rebuild --release
+npm error prebuild-install warn install No prebuilt binaries found (target=25.2.1 runtime=node arch=x64 libc= platform=win32)
+npm error gyp info it worked if it ends with ok
+npm error gyp info using node-gyp@11.4.2
+npm error gyp info using node@25.2.1 | win32 | x64
+npm error gyp info find Python using Python version 3.9.0 found at "C:\Users\eisxh\AppData\Local\Programs\Python\Python39\python.exe"
+npm error gyp ERR! find VS 
+npm error gyp ERR! find VS msvs_version not set from command line or npm config
+npm error gyp ERR! find VS VCINSTALLDIR not set, not running in VS Command Prompt
+npm error gyp ERR! find VS could not use PowerShell to find Visual Studio 2017 or newer, try re-running with '--loglevel silly' for more details.
+npm error gyp ERR! find VS 
+npm error gyp ERR! find VS Failure details: undefined
+npm error gyp ERR! find VS unknown version "undefined" found at "C:\Program Files\Microsoft Visual Studio\18\Community"
+npm error gyp ERR! find VS could not find a version of Visual Studio 2017 or newer to use
+npm error gyp ERR! find VS not looking for VS2017 as it is only supported up to Node.js 21
+npm error gyp ERR! find VS not looking for VS2017 as it is only supported up to Node.js 21
+npm error gyp ERR! find VS not looking for VS2017 as it is only supported up to Node.js 21
+npm error gyp ERR! find VS not looking for VS2015 as it is only supported up to Node.js 18
+npm error gyp ERR! find VS not looking for VS2013 as it is only supported up to Node.js 8
+npm error gyp ERR! find VS 
+npm error gyp ERR! find VS **************************************************************
+npm error gyp ERR! find VS You need to install the latest version of Visual Studio
+npm error gyp ERR! find VS including the "Desktop development with C++" workload.
+npm error gyp ERR! find VS For more information consult the documentation at:
+npm error gyp ERR! find VS https://github.com/nodejs/node-gyp#on-windows
+npm error gyp ERR! find VS **************************************************************
+npm error gyp ERR! find VS 
+npm error gyp ERR! configure error 
+npm error gyp ERR! stack Error: Could not find any Visual Studio installation to use
+npm error gyp ERR! stack at VisualStudioFinder.fail (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\find-visualstudio.js:118:11)
+npm error gyp ERR! stack at VisualStudioFinder.findVisualStudio (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\find-visualstudio.js:74:17)
+npm error gyp ERR! stack at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+npm error gyp ERR! stack at async createBuildDir (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\configure.js:112:18)
+npm error gyp ERR! stack at async run (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\bin\node-gyp.js:81:18)
+npm error gyp ERR! System Windows_NT 10.0.26200
+npm error gyp ERR! command "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\node-gyp\\bin\\node-gyp.js" "rebuild" "--release"
+npm error gyp ERR! cwd C:\Users\eisxh\Desktop\pdc\ADAGDS\output\quran1\node_modules\better-sqlite3
+npm error gyp ERR! node -v v25.2.1
+npm error gyp ERR! node-gyp -v v11.4.2
+npm error gyp ERR! not ok
+npm error A complete log of this run can be found in: C:\Users\eisxh\AppData\Local\npm-cache\_logs\2026-05-19T18_21_30_268Z-debug-0.log
+
+[2026-05-19T18:21:37.678Z] [INFO] Installing dependencies for Surah Yaseen Institute...
+[2026-05-19T18:21:44.165Z] [ERROR] Failed to setup quran2: Command failed: npm install
+npm warn deprecated prebuild-install@7.1.3: No longer maintained. Please contact the author of the relevant native addon; alternatives are available.
+npm warn cleanup Failed to remove some directories [
+npm warn cleanup   [
+npm warn cleanup     '\\\\?\\C:\\Users\\eisxh\\Desktop\\pdc\\ADAGDS\\output\\quran2\\node_modules',
+npm warn cleanup     [Error: EPERM: operation not permitted, rmdir 'C:\Users\eisxh\Desktop\pdc\ADAGDS\output\quran2\node_modules\tar-fs\test\fixtures\d\sub-dir'] {
+npm warn cleanup       errno: -4048,
+npm warn cleanup       code: 'EPERM',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'C:\\Users\\eisxh\\Desktop\\pdc\\ADAGDS\\output\\quran2\\node_modules\\tar-fs\\test\\fixtures\\d\\sub-dir'
+npm warn cleanup     }
+npm warn cleanup   ]
+npm warn cleanup ]
+npm error code 1
+npm error path C:\Users\eisxh\Desktop\pdc\ADAGDS\output\quran2\node_modules\better-sqlite3
+npm error command failed
+npm error command C:\windows\system32\cmd.exe /d /s /c prebuild-install || node-gyp rebuild --release
+npm error prebuild-install warn install No prebuilt binaries found (target=25.2.1 runtime=node arch=x64 libc= platform=win32)
+npm error gyp info it worked if it ends with ok
+npm error gyp info using node-gyp@11.4.2
+npm error gyp info using node@25.2.1 | win32 | x64
+npm error gyp info find Python using Python version 3.9.0 found at "C:\Users\eisxh\AppData\Local\Programs\Python\Python39\python.exe"
+npm error gyp ERR! find VS 
+npm error gyp ERR! find VS msvs_version not set from command line or npm config
+npm error gyp ERR! find VS VCINSTALLDIR not set, not running in VS Command Prompt
+npm error gyp ERR! find VS could not use PowerShell to find Visual Studio 2017 or newer, try re-running with '--loglevel silly' for more details.
+npm error gyp ERR! find VS 
+npm error gyp ERR! find VS Failure details: undefined
+npm error gyp ERR! find VS unknown version "undefined" found at "C:\Program Files\Microsoft Visual Studio\18\Community"
+npm error gyp ERR! find VS could not find a version of Visual Studio 2017 or newer to use
+npm error gyp ERR! find VS not looking for VS2017 as it is only supported up to Node.js 21
+npm error gyp ERR! find VS not looking for VS2017 as it is only supported up to Node.js 21
+npm error gyp ERR! find VS not looking for VS2017 as it is only supported up to Node.js 21
+npm error gyp ERR! find VS not looking for VS2015 as it is only supported up to Node.js 18
+npm error gyp ERR! find VS not looking for VS2013 as it is only supported up to Node.js 8
+npm error gyp ERR! find VS 
+npm error gyp ERR! find VS **************************************************************
+npm error gyp ERR! find VS You need to install the latest version of Visual Studio
+npm error gyp ERR! find VS including the "Desktop development with C++" workload.
+npm error gyp ERR! find VS For more information consult the documentation at:
+npm error gyp ERR! find VS https://github.com/nodejs/node-gyp#on-windows
+npm error gyp ERR! find VS **************************************************************
+npm error gyp ERR! find VS 
+npm error gyp ERR! configure error 
+npm error gyp ERR! stack Error: Could not find any Visual Studio installation to use
+npm error gyp ERR! stack at VisualStudioFinder.fail (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\find-visualstudio.js:118:11)
+npm error gyp ERR! stack at VisualStudioFinder.findVisualStudio (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\find-visualstudio.js:74:17)
+npm error gyp ERR! stack at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+npm error gyp ERR! stack at async createBuildDir (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\configure.js:112:18)
+npm error gyp ERR! stack at async run (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\bin\node-gyp.js:81:18)
+npm error gyp ERR! System Windows_NT 10.0.26200
+npm error gyp ERR! command "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\node-gyp\\bin\\node-gyp.js" "rebuild" "--release"
+npm error gyp ERR! cwd C:\Users\eisxh\Desktop\pdc\ADAGDS\output\quran2\node_modules\better-sqlite3
+npm error gyp ERR! node -v v25.2.1
+npm error gyp ERR! node-gyp -v v11.4.2
+npm error gyp ERR! not ok
+npm error A complete log of this run can be found in: C:\Users\eisxh\AppData\Local\npm-cache\_logs\2026-05-19T18_21_38_155Z-debug-0.log
+
+[2026-05-19T18:21:44.170Z] [INFO] Starting HealthHub on port 3003...
+[2026-05-19T18:21:45.683Z] [INFO] Starting FinanceFlow on port 3004...
+[2026-05-19T18:21:47.200Z] [INFO] Starting TaskMaster on port 3005...
+[2026-05-19T18:21:48.727Z] [INFO] ✓ Successfully started 3 applications
+[2026-05-19T18:21:48.738Z] [INFO] Master Dashboard running at http://localhost:8080
+[2026-05-19T18:26:27.289Z] [INFO] ========================================
+[2026-05-19T18:26:27.293Z] [INFO]   ADAGDS — System Starting Up
+[2026-05-19T18:26:27.295Z] [INFO] ========================================
+[2026-05-19T18:26:27.298Z] [INFO] Starting system resource analysis...
+[2026-05-19T18:26:31.752Z] [INFO] CPU: Intel Core™ Ultra 7 256V — 8 cores
+[2026-05-19T18:26:31.752Z] [INFO] RAM: 4GB free of 16GB total
+[2026-05-19T18:26:31.753Z] [INFO] GPU: Intel(R) Arc(TM) 140V GPU (8GB)
+[2026-05-19T18:26:31.753Z] [INFO] Running Adaptive Workload Decision Engine...
+[2026-05-19T18:26:31.753Z] [INFO] Decision Engine Result: Will generate 14 applications
+[2026-05-19T18:26:31.754Z] [INFO] Reason: 8 CPU cores, 4GB free RAM
+[2026-05-19T18:26:31.757Z] [INFO] Loaded 5 configurations
+[2026-05-19T18:26:31.759Z] [INFO] Starting parallel application generation...
+[2026-05-19T18:26:31.760Z] [INFO] Job added to queue: Surah Al-Fatiha Academy
+[2026-05-19T18:26:31.766Z] [INFO] Job added to queue: Surah Yaseen Institute
+[2026-05-19T18:26:31.768Z] [INFO] Job added to queue: Surah Rahman Center
+[2026-05-19T18:26:31.768Z] [INFO] Job added to queue: Surah Mulk Academy
+[2026-05-19T18:26:31.768Z] [INFO] Job added to queue: Surah Ikhlas Hub
+[2026-05-19T18:26:31.769Z] [INFO] Total jobs queued: 5
+[2026-05-19T18:26:31.769Z] [INFO] Running batch: quran1, quran2, quran3
+[2026-05-19T18:26:31.936Z] [INFO] ✔ quran2 generated in 0.16s
+[2026-05-19T18:26:31.956Z] [INFO] ✔ quran1 generated in 0.19s
+[2026-05-19T18:26:31.971Z] [INFO] ✔ quran3 generated in 0.20s
+[2026-05-19T18:26:31.972Z] [INFO] Running batch: quran4, quran5
+[2026-05-19T18:26:32.107Z] [INFO] ✔ quran4 generated in 0.13s
+[2026-05-19T18:26:32.117Z] [INFO] ✔ quran5 generated in 0.14s
+[2026-05-19T18:26:32.121Z] [INFO] Build Summary — Total: 5 | Completed: 0 | Failed: 0
+[2026-05-19T18:26:32.122Z] [INFO] Setting up 5 applications...
+[2026-05-19T18:26:32.125Z] [INFO] Installing dependencies for Surah Al-Fatiha Academy...
+[2026-05-19T18:26:48.962Z] [ERROR] Failed to setup quran1: Command failed: npm install
+npm warn deprecated prebuild-install@7.1.3: No longer maintained. Please contact the author of the relevant native addon; alternatives are available.
+npm error code 1
+npm error path C:\Users\eisxh\Desktop\pdc\ADAGDS\output\quran1\node_modules\better-sqlite3
+npm error command failed
+npm error command C:\windows\system32\cmd.exe /d /s /c prebuild-install || node-gyp rebuild --release
+npm error prebuild-install warn install No prebuilt binaries found (target=25.2.1 runtime=node arch=x64 libc= platform=win32)
+npm error gyp info it worked if it ends with ok
+npm error gyp info using node-gyp@11.4.2
+npm error gyp info using node@25.2.1 | win32 | x64
+npm error gyp info find Python using Python version 3.9.0 found at "C:\Users\eisxh\AppData\Local\Programs\Python\Python39\python.exe"
+npm error gyp ERR! find VS 
+npm error gyp ERR! find VS msvs_version not set from command line or npm config
+npm error gyp ERR! find VS VCINSTALLDIR not set, not running in VS Command Prompt
+npm error gyp ERR! find VS could not use PowerShell to find Visual Studio 2017 or newer, try re-running with '--loglevel silly' for more details.
+npm error gyp ERR! find VS 
+npm error gyp ERR! find VS Failure details: undefined
+npm error gyp ERR! find VS unknown version "undefined" found at "C:\Program Files\Microsoft Visual Studio\18\Community"
+npm error gyp ERR! find VS could not find a version of Visual Studio 2017 or newer to use
+npm error gyp ERR! find VS not looking for VS2017 as it is only supported up to Node.js 21
+npm error gyp ERR! find VS not looking for VS2017 as it is only supported up to Node.js 21
+npm error gyp ERR! find VS not looking for VS2017 as it is only supported up to Node.js 21
+npm error gyp ERR! find VS not looking for VS2015 as it is only supported up to Node.js 18
+npm error gyp ERR! find VS not looking for VS2013 as it is only supported up to Node.js 8
+npm error gyp ERR! find VS 
+npm error gyp ERR! find VS **************************************************************
+npm error gyp ERR! find VS You need to install the latest version of Visual Studio
+npm error gyp ERR! find VS including the "Desktop development with C++" workload.
+npm error gyp ERR! find VS For more information consult the documentation at:
+npm error gyp ERR! find VS https://github.com/nodejs/node-gyp#on-windows
+npm error gyp ERR! find VS **************************************************************
+npm error gyp ERR! find VS 
+npm error gyp ERR! configure error 
+npm error gyp ERR! stack Error: Could not find any Visual Studio installation to use
+npm error gyp ERR! stack at VisualStudioFinder.fail (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\find-visualstudio.js:118:11)
+npm error gyp ERR! stack at VisualStudioFinder.findVisualStudio (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\find-visualstudio.js:74:17)
+npm error gyp ERR! stack at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+npm error gyp ERR! stack at async createBuildDir (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\configure.js:112:18)
+npm error gyp ERR! stack at async run (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\bin\node-gyp.js:81:18)
+npm error gyp ERR! System Windows_NT 10.0.26200
+npm error gyp ERR! command "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\node-gyp\\bin\\node-gyp.js" "rebuild" "--release"
+npm error gyp ERR! cwd C:\Users\eisxh\Desktop\pdc\ADAGDS\output\quran1\node_modules\better-sqlite3
+npm error gyp ERR! node -v v25.2.1
+npm error gyp ERR! node-gyp -v v11.4.2
+npm error gyp ERR! not ok
+npm error A complete log of this run can be found in: C:\Users\eisxh\AppData\Local\npm-cache\_logs\2026-05-19T18_26_32_618Z-debug-0.log
+
+[2026-05-19T18:26:48.966Z] [INFO] Installing dependencies for Surah Yaseen Institute...
+[2026-05-19T18:26:55.494Z] [ERROR] Failed to setup quran2: Command failed: npm install
+npm warn deprecated prebuild-install@7.1.3: No longer maintained. Please contact the author of the relevant native addon; alternatives are available.
+npm warn cleanup Failed to remove some directories [
+npm warn cleanup   [
+npm warn cleanup     '\\\\?\\C:\\Users\\eisxh\\Desktop\\pdc\\ADAGDS\\output\\quran2\\node_modules',
+npm warn cleanup     [Error: EPERM: operation not permitted, rmdir 'C:\Users\eisxh\Desktop\pdc\ADAGDS\output\quran2\node_modules\tar-fs\test\fixtures'] {
+npm warn cleanup       errno: -4048,
+npm warn cleanup       code: 'EPERM',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'C:\\Users\\eisxh\\Desktop\\pdc\\ADAGDS\\output\\quran2\\node_modules\\tar-fs\\test\\fixtures'
+npm warn cleanup     }
+npm warn cleanup   ]
+npm warn cleanup ]
+npm error code 1
+npm error path C:\Users\eisxh\Desktop\pdc\ADAGDS\output\quran2\node_modules\better-sqlite3
+npm error command failed
+npm error command C:\windows\system32\cmd.exe /d /s /c prebuild-install || node-gyp rebuild --release
+npm error prebuild-install warn install No prebuilt binaries found (target=25.2.1 runtime=node arch=x64 libc= platform=win32)
+npm error gyp info it worked if it ends with ok
+npm error gyp info using node-gyp@11.4.2
+npm error gyp info using node@25.2.1 | win32 | x64
+npm error gyp info find Python using Python version 3.9.0 found at "C:\Users\eisxh\AppData\Local\Programs\Python\Python39\python.exe"
+npm error gyp ERR! find VS 
+npm error gyp ERR! find VS msvs_version not set from command line or npm config
+npm error gyp ERR! find VS VCINSTALLDIR not set, not running in VS Command Prompt
+npm error gyp ERR! find VS could not use PowerShell to find Visual Studio 2017 or newer, try re-running with '--loglevel silly' for more details.
+npm error gyp ERR! find VS 
+npm error gyp ERR! find VS Failure details: undefined
+npm error gyp ERR! find VS unknown version "undefined" found at "C:\Program Files\Microsoft Visual Studio\18\Community"
+npm error gyp ERR! find VS could not find a version of Visual Studio 2017 or newer to use
+npm error gyp ERR! find VS not looking for VS2017 as it is only supported up to Node.js 21
+npm error gyp ERR! find VS not looking for VS2017 as it is only supported up to Node.js 21
+npm error gyp ERR! find VS not looking for VS2017 as it is only supported up to Node.js 21
+npm error gyp ERR! find VS not looking for VS2015 as it is only supported up to Node.js 18
+npm error gyp ERR! find VS not looking for VS2013 as it is only supported up to Node.js 8
+npm error gyp ERR! find VS 
+npm error gyp ERR! find VS **************************************************************
+npm error gyp ERR! find VS You need to install the latest version of Visual Studio
+npm error gyp ERR! find VS including the "Desktop development with C++" workload.
+npm error gyp ERR! find VS For more information consult the documentation at:
+npm error gyp ERR! find VS https://github.com/nodejs/node-gyp#on-windows
+npm error gyp ERR! find VS **************************************************************
+npm error gyp ERR! find VS 
+npm error gyp ERR! configure error 
+npm error gyp ERR! stack Error: Could not find any Visual Studio installation to use
+npm error gyp ERR! stack at VisualStudioFinder.fail (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\find-visualstudio.js:118:11)
+npm error gyp ERR! stack at VisualStudioFinder.findVisualStudio (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\find-visualstudio.js:74:17)
+npm error gyp ERR! stack at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+npm error gyp ERR! stack at async createBuildDir (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\configure.js:112:18)
+npm error gyp ERR! stack at async run (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\bin\node-gyp.js:81:18)
+npm error gyp ERR! System Windows_NT 10.0.26200
+npm error gyp ERR! command "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\node-gyp\\bin\\node-gyp.js" "rebuild" "--release"
+npm error gyp ERR! cwd C:\Users\eisxh\Desktop\pdc\ADAGDS\output\quran2\node_modules\better-sqlite3
+npm error gyp ERR! node -v v25.2.1
+npm error gyp ERR! node-gyp -v v11.4.2
+npm error gyp ERR! not ok
+npm error A complete log of this run can be found in: C:\Users\eisxh\AppData\Local\npm-cache\_logs\2026-05-19T18_26_49_362Z-debug-0.log
+
+[2026-05-19T18:26:55.500Z] [INFO] Installing dependencies for Surah Rahman Center...
+[2026-05-19T18:27:01.582Z] [ERROR] Failed to setup quran3: Command failed: npm install
+npm warn deprecated prebuild-install@7.1.3: No longer maintained. Please contact the author of the relevant native addon; alternatives are available.
+npm warn cleanup Failed to remove some directories [
+npm warn cleanup   [
+npm warn cleanup     '\\\\?\\C:\\Users\\eisxh\\Desktop\\pdc\\ADAGDS\\output\\quran3\\node_modules\\tar-fs',
+npm warn cleanup     [Error: EPERM: operation not permitted, rmdir 'C:\Users\eisxh\Desktop\pdc\ADAGDS\output\quran3\node_modules\tar-fs\test\fixtures\e\directory'] {
+npm warn cleanup       errno: -4048,
+npm warn cleanup       code: 'EPERM',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'C:\\Users\\eisxh\\Desktop\\pdc\\ADAGDS\\output\\quran3\\node_modules\\tar-fs\\test\\fixtures\\e\\directory'
+npm warn cleanup     }
+npm warn cleanup   ]
+npm warn cleanup ]
+npm error code 1
+npm error path C:\Users\eisxh\Desktop\pdc\ADAGDS\output\quran3\node_modules\better-sqlite3
+npm error command failed
+npm error command C:\windows\system32\cmd.exe /d /s /c prebuild-install || node-gyp rebuild --release
+npm error prebuild-install warn install No prebuilt binaries found (target=25.2.1 runtime=node arch=x64 libc= platform=win32)
+npm error gyp info it worked if it ends with ok
+npm error gyp info using node-gyp@11.4.2
+npm error gyp info using node@25.2.1 | win32 | x64
+npm error gyp info find Python using Python version 3.9.0 found at "C:\Users\eisxh\AppData\Local\Programs\Python\Python39\python.exe"
+npm error gyp ERR! find VS 
+npm error gyp ERR! find VS msvs_version not set from command line or npm config
+npm error gyp ERR! find VS VCINSTALLDIR not set, not running in VS Command Prompt
+npm error gyp ERR! find VS could not use PowerShell to find Visual Studio 2017 or newer, try re-running with '--loglevel silly' for more details.
+npm error gyp ERR! find VS 
+npm error gyp ERR! find VS Failure details: undefined
+npm error gyp ERR! find VS unknown version "undefined" found at "C:\Program Files\Microsoft Visual Studio\18\Community"
+npm error gyp ERR! find VS could not find a version of Visual Studio 2017 or newer to use
+npm error gyp ERR! find VS not looking for VS2017 as it is only supported up to Node.js 21
+npm error gyp ERR! find VS not looking for VS2017 as it is only supported up to Node.js 21
+npm error gyp ERR! find VS not looking for VS2017 as it is only supported up to Node.js 21
+npm error gyp ERR! find VS not looking for VS2015 as it is only supported up to Node.js 18
+npm error gyp ERR! find VS not looking for VS2013 as it is only supported up to Node.js 8
+npm error gyp ERR! find VS 
+npm error gyp ERR! find VS **************************************************************
+npm error gyp ERR! find VS You need to install the latest version of Visual Studio
+npm error gyp ERR! find VS including the "Desktop development with C++" workload.
+npm error gyp ERR! find VS For more information consult the documentation at:
+npm error gyp ERR! find VS https://github.com/nodejs/node-gyp#on-windows
+npm error gyp ERR! find VS **************************************************************
+npm error gyp ERR! find VS 
+npm error gyp ERR! configure error 
+npm error gyp ERR! stack Error: Could not find any Visual Studio installation to use
+npm error gyp ERR! stack at VisualStudioFinder.fail (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\find-visualstudio.js:118:11)
+npm error gyp ERR! stack at VisualStudioFinder.findVisualStudio (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\find-visualstudio.js:74:17)
+npm error gyp ERR! stack at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+npm error gyp ERR! stack at async createBuildDir (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\configure.js:112:18)
+npm error gyp ERR! stack at async run (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\bin\node-gyp.js:81:18)
+npm error gyp ERR! System Windows_NT 10.0.26200
+npm error gyp ERR! command "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\node-gyp\\bin\\node-gyp.js" "rebuild" "--release"
+npm error gyp ERR! cwd C:\Users\eisxh\Desktop\pdc\ADAGDS\output\quran3\node_modules\better-sqlite3
+npm error gyp ERR! node -v v25.2.1
+npm error gyp ERR! node-gyp -v v11.4.2
+npm error gyp ERR! not ok
+npm error A complete log of this run can be found in: C:\Users\eisxh\AppData\Local\npm-cache\_logs\2026-05-19T18_26_55_952Z-debug-0.log
+
+[2026-05-19T18:27:01.583Z] [INFO] Installing dependencies for Surah Mulk Academy...
+[2026-05-19T18:27:08.006Z] [ERROR] Failed to setup quran4: Command failed: npm install
+npm warn deprecated prebuild-install@7.1.3: No longer maintained. Please contact the author of the relevant native addon; alternatives are available.
+npm warn cleanup Failed to remove some directories [
+npm warn cleanup   [
+npm warn cleanup     '\\\\?\\C:\\Users\\eisxh\\Desktop\\pdc\\ADAGDS\\output\\quran4\\node_modules',
+npm warn cleanup     [Error: EPERM: operation not permitted, rmdir 'C:\Users\eisxh\Desktop\pdc\ADAGDS\output\quran4\node_modules\tar-fs\test\fixtures\a'] {
+npm warn cleanup       errno: -4048,
+npm warn cleanup       code: 'EPERM',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'C:\\Users\\eisxh\\Desktop\\pdc\\ADAGDS\\output\\quran4\\node_modules\\tar-fs\\test\\fixtures\\a'
+npm warn cleanup     }
+npm warn cleanup   ],
+npm warn cleanup   [
+npm warn cleanup     '\\\\?\\C:\\Users\\eisxh\\Desktop\\pdc\\ADAGDS\\output\\quran4\\node_modules\\readable-stream',
+npm warn cleanup     [Error: EPERM: operation not permitted, rmdir 'C:\Users\eisxh\Desktop\pdc\ADAGDS\output\quran4\node_modules\readable-stream\lib\internal'] {
+npm warn cleanup       errno: -4048,
+npm warn cleanup       code: 'EPERM',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'C:\\Users\\eisxh\\Desktop\\pdc\\ADAGDS\\output\\quran4\\node_modules\\readable-stream\\lib\\internal'
+npm warn cleanup     }
+npm warn cleanup   ]
+npm warn cleanup ]
+npm error code 1
+npm error path C:\Users\eisxh\Desktop\pdc\ADAGDS\output\quran4\node_modules\better-sqlite3
+npm error command failed
+npm error command C:\windows\system32\cmd.exe /d /s /c prebuild-install || node-gyp rebuild --release
+npm error prebuild-install warn install No prebuilt binaries found (target=25.2.1 runtime=node arch=x64 libc= platform=win32)
+npm error gyp info it worked if it ends with ok
+npm error gyp info using node-gyp@11.4.2
+npm error gyp info using node@25.2.1 | win32 | x64
+npm error gyp info find Python using Python version 3.9.0 found at "C:\Users\eisxh\AppData\Local\Programs\Python\Python39\python.exe"
+npm error gyp ERR! find VS 
+npm error gyp ERR! find VS msvs_version not set from command line or npm config
+npm error gyp ERR! find VS VCINSTALLDIR not set, not running in VS Command Prompt
+npm error gyp ERR! find VS could not use PowerShell to find Visual Studio 2017 or newer, try re-running with '--loglevel silly' for more details.
+npm error gyp ERR! find VS 
+npm error gyp ERR! find VS Failure details: undefined
+npm error gyp ERR! find VS unknown version "undefined" found at "C:\Program Files\Microsoft Visual Studio\18\Community"
+npm error gyp ERR! find VS could not find a version of Visual Studio 2017 or newer to use
+npm error gyp ERR! find VS not looking for VS2017 as it is only supported up to Node.js 21
+npm error gyp ERR! find VS not looking for VS2017 as it is only supported up to Node.js 21
+npm error gyp ERR! find VS not looking for VS2017 as it is only supported up to Node.js 21
+npm error gyp ERR! find VS not looking for VS2015 as it is only supported up to Node.js 18
+npm error gyp ERR! find VS not looking for VS2013 as it is only supported up to Node.js 8
+npm error gyp ERR! find VS 
+npm error gyp ERR! find VS **************************************************************
+npm error gyp ERR! find VS You need to install the latest version of Visual Studio
+npm error gyp ERR! find VS including the "Desktop development with C++" workload.
+npm error gyp ERR! find VS For more information consult the documentation at:
+npm error gyp ERR! find VS https://github.com/nodejs/node-gyp#on-windows
+npm error gyp ERR! find VS **************************************************************
+npm error gyp ERR! find VS 
+npm error gyp ERR! configure error 
+npm error gyp ERR! stack Error: Could not find any Visual Studio installation to use
+npm error gyp ERR! stack at VisualStudioFinder.fail (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\find-visualstudio.js:118:11)
+npm error gyp ERR! stack at VisualStudioFinder.findVisualStudio (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\find-visualstudio.js:74:17)
+npm error gyp ERR! stack at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+npm error gyp ERR! stack at async createBuildDir (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\configure.js:112:18)
+npm error gyp ERR! stack at async run (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\bin\node-gyp.js:81:18)
+npm error gyp ERR! System Windows_NT 10.0.26200
+npm error gyp ERR! command "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\node-gyp\\bin\\node-gyp.js" "rebuild" "--release"
+npm error gyp ERR! cwd C:\Users\eisxh\Desktop\pdc\ADAGDS\output\quran4\node_modules\better-sqlite3
+npm error gyp ERR! node -v v25.2.1
+npm error gyp ERR! node-gyp -v v11.4.2
+npm error gyp ERR! not ok
+npm error A complete log of this run can be found in: C:\Users\eisxh\AppData\Local\npm-cache\_logs\2026-05-19T18_27_02_058Z-debug-0.log
+
+[2026-05-19T18:27:08.008Z] [INFO] Installing dependencies for Surah Ikhlas Hub...
+[2026-05-19T18:27:14.471Z] [ERROR] Failed to setup quran5: Command failed: npm install
+npm warn deprecated prebuild-install@7.1.3: No longer maintained. Please contact the author of the relevant native addon; alternatives are available.
+npm warn cleanup Failed to remove some directories [
+npm warn cleanup   [
+npm warn cleanup     '\\\\?\\C:\\Users\\eisxh\\Desktop\\pdc\\ADAGDS\\output\\quran5\\node_modules',
+npm warn cleanup     [Error: EPERM: operation not permitted, rmdir 'C:\Users\eisxh\Desktop\pdc\ADAGDS\output\quran5\node_modules\send'] {
+npm warn cleanup       errno: -4048,
+npm warn cleanup       code: 'EPERM',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'C:\\Users\\eisxh\\Desktop\\pdc\\ADAGDS\\output\\quran5\\node_modules\\send'
+npm warn cleanup     }
+npm warn cleanup   ],
+npm warn cleanup   [
+npm warn cleanup     '\\\\?\\C:\\Users\\eisxh\\Desktop\\pdc\\ADAGDS\\output\\quran5\\node_modules\\tar-fs',
+npm warn cleanup     [Error: EPERM: operation not permitted, rmdir 'C:\Users\eisxh\Desktop\pdc\ADAGDS\output\quran5\node_modules\tar-fs\test\fixtures\b'] {
+npm warn cleanup       errno: -4048,
+npm warn cleanup       code: 'EPERM',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'C:\\Users\\eisxh\\Desktop\\pdc\\ADAGDS\\output\\quran5\\node_modules\\tar-fs\\test\\fixtures\\b'
+npm warn cleanup     }
+npm warn cleanup   ]
+npm warn cleanup ]
+npm error code 1
+npm error path C:\Users\eisxh\Desktop\pdc\ADAGDS\output\quran5\node_modules\better-sqlite3
+npm error command failed
+npm error command C:\windows\system32\cmd.exe /d /s /c prebuild-install || node-gyp rebuild --release
+npm error prebuild-install warn install No prebuilt binaries found (target=25.2.1 runtime=node arch=x64 libc= platform=win32)
+npm error gyp info it worked if it ends with ok
+npm error gyp info using node-gyp@11.4.2
+npm error gyp info using node@25.2.1 | win32 | x64
+npm error gyp info find Python using Python version 3.9.0 found at "C:\Users\eisxh\AppData\Local\Programs\Python\Python39\python.exe"
+npm error gyp ERR! find VS 
+npm error gyp ERR! find VS msvs_version not set from command line or npm config
+npm error gyp ERR! find VS VCINSTALLDIR not set, not running in VS Command Prompt
+npm error gyp ERR! find VS could not use PowerShell to find Visual Studio 2017 or newer, try re-running with '--loglevel silly' for more details.
+npm error gyp ERR! find VS 
+npm error gyp ERR! find VS Failure details: undefined
+npm error gyp ERR! find VS unknown version "undefined" found at "C:\Program Files\Microsoft Visual Studio\18\Community"
+npm error gyp ERR! find VS could not find a version of Visual Studio 2017 or newer to use
+npm error gyp ERR! find VS not looking for VS2017 as it is only supported up to Node.js 21
+npm error gyp ERR! find VS not looking for VS2017 as it is only supported up to Node.js 21
+npm error gyp ERR! find VS not looking for VS2017 as it is only supported up to Node.js 21
+npm error gyp ERR! find VS not looking for VS2015 as it is only supported up to Node.js 18
+npm error gyp ERR! find VS not looking for VS2013 as it is only supported up to Node.js 8
+npm error gyp ERR! find VS 
+npm error gyp ERR! find VS **************************************************************
+npm error gyp ERR! find VS You need to install the latest version of Visual Studio
+npm error gyp ERR! find VS including the "Desktop development with C++" workload.
+npm error gyp ERR! find VS For more information consult the documentation at:
+npm error gyp ERR! find VS https://github.com/nodejs/node-gyp#on-windows
+npm error gyp ERR! find VS **************************************************************
+npm error gyp ERR! find VS 
+npm error gyp ERR! configure error 
+npm error gyp ERR! stack Error: Could not find any Visual Studio installation to use
+npm error gyp ERR! stack at VisualStudioFinder.fail (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\find-visualstudio.js:118:11)
+npm error gyp ERR! stack at VisualStudioFinder.findVisualStudio (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\find-visualstudio.js:74:17)
+npm error gyp ERR! stack at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+npm error gyp ERR! stack at async createBuildDir (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\configure.js:112:18)
+npm error gyp ERR! stack at async run (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\bin\node-gyp.js:81:18)
+npm error gyp ERR! System Windows_NT 10.0.26200
+npm error gyp ERR! command "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\node-gyp\\bin\\node-gyp.js" "rebuild" "--release"
+npm error gyp ERR! cwd C:\Users\eisxh\Desktop\pdc\ADAGDS\output\quran5\node_modules\better-sqlite3
+npm error gyp ERR! node -v v25.2.1
+npm error gyp ERR! node-gyp -v v11.4.2
+npm error gyp ERR! not ok
+npm error A complete log of this run can be found in: C:\Users\eisxh\AppData\Local\npm-cache\_logs\2026-05-19T18_27_08_488Z-debug-0.log
+
+[2026-05-19T18:27:14.471Z] [INFO] ✓ Successfully started 0 applications
+[2026-05-19T18:27:14.476Z] [INFO] Master Dashboard running at http://localhost:8080
+[2026-05-19T18:31:39.187Z] [INFO] ========================================
+[2026-05-19T18:31:39.227Z] [INFO]   ADAGDS — System Starting Up
+[2026-05-19T18:31:39.243Z] [INFO] ========================================
+[2026-05-19T18:31:39.248Z] [INFO] Starting system resource analysis...
+[2026-05-19T18:31:44.721Z] [INFO] CPU: Intel Core™ Ultra 7 256V — 8 cores
+[2026-05-19T18:31:44.722Z] [INFO] RAM: 3GB free of 16GB total
+[2026-05-19T18:31:44.723Z] [INFO] GPU: Intel(R) Arc(TM) 140V GPU (8GB)
+[2026-05-19T18:31:44.724Z] [INFO] Running Adaptive Workload Decision Engine...
+[2026-05-19T18:31:44.724Z] [INFO] Decision Engine Result: Will generate 10 applications
+[2026-05-19T18:31:44.725Z] [INFO] Reason: 8 CPU cores, 3GB free RAM
+[2026-05-19T18:31:44.730Z] [INFO] Loaded 5 configurations
+[2026-05-19T18:31:44.732Z] [INFO] Starting parallel application generation...
+[2026-05-19T18:31:44.735Z] [INFO] Job added to queue: Surah Al-Fatiha Academy
+[2026-05-19T18:31:44.737Z] [INFO] Job added to queue: Surah Yaseen Institute
+[2026-05-19T18:31:44.737Z] [INFO] Job added to queue: Surah Rahman Center
+[2026-05-19T18:31:44.737Z] [INFO] Job added to queue: Surah Mulk Academy
+[2026-05-19T18:31:44.738Z] [INFO] Job added to queue: Surah Ikhlas Hub
+[2026-05-19T18:31:44.738Z] [INFO] Total jobs queued: 5
+[2026-05-19T18:31:44.739Z] [INFO] Running batch: quran1, quran2, quran3
+[2026-05-19T18:31:44.938Z] [INFO] ✔ quran2 generated in 0.20s
+[2026-05-19T18:31:44.952Z] [INFO] ✔ quran1 generated in 0.21s
+[2026-05-19T18:31:44.955Z] [INFO] ✔ quran3 generated in 0.21s
+[2026-05-19T18:31:44.956Z] [INFO] Running batch: quran4, quran5
+[2026-05-19T18:31:45.109Z] [INFO] ✔ quran4 generated in 0.15s
+[2026-05-19T18:31:45.133Z] [INFO] ✔ quran5 generated in 0.17s
+[2026-05-19T18:31:45.135Z] [INFO] Build Summary — Total: 5 | Completed: 0 | Failed: 0
+[2026-05-19T18:31:45.136Z] [INFO] Setting up 5 applications...
+[2026-05-19T18:31:45.137Z] [INFO] Installing dependencies for Surah Al-Fatiha Academy...
+[2026-05-19T18:31:52.922Z] [INFO] Starting Surah Al-Fatiha Academy on port 3011...
+[2026-05-19T18:31:54.438Z] [INFO] Installing dependencies for Surah Yaseen Institute...
+[2026-05-19T18:31:56.784Z] [INFO] Starting Surah Yaseen Institute on port 3012...
+[2026-05-19T18:31:58.299Z] [INFO] Installing dependencies for Surah Rahman Center...
+[2026-05-19T18:32:01.371Z] [INFO] Starting Surah Rahman Center on port 3013...
+[2026-05-19T18:32:02.892Z] [INFO] Installing dependencies for Surah Mulk Academy...
+[2026-05-19T18:32:05.183Z] [INFO] Starting Surah Mulk Academy on port 3014...
+[2026-05-19T18:32:06.702Z] [INFO] Installing dependencies for Surah Ikhlas Hub...
+[2026-05-19T18:32:10.311Z] [INFO] Starting Surah Ikhlas Hub on port 3015...
+[2026-05-19T18:32:11.823Z] [INFO] ✓ Successfully started 5 applications
+[2026-05-19T18:32:11.847Z] [INFO] Master Dashboard running at http://localhost:8080
+[2026-05-19T18:53:14.191Z] [INFO] ========================================
+[2026-05-19T18:53:14.193Z] [INFO]   ADAGDS — System Starting Up
+[2026-05-19T18:53:14.194Z] [INFO] ========================================
+[2026-05-19T18:53:14.194Z] [INFO] Starting system resource analysis...
+[2026-05-19T18:53:18.863Z] [INFO] CPU: Intel Core™ Ultra 7 256V — 8 cores
+[2026-05-19T18:53:18.864Z] [INFO] RAM: 3GB free of 16GB total
+[2026-05-19T18:53:18.864Z] [INFO] GPU: Intel(R) Arc(TM) 140V GPU (8GB)
+[2026-05-19T18:53:18.864Z] [INFO] Running Adaptive Workload Decision Engine...
+[2026-05-19T18:53:18.865Z] [INFO] Decision Engine Result: Will generate 10 applications
+[2026-05-19T18:53:18.865Z] [INFO] Reason: 8 CPU cores, 3GB free RAM
+[2026-05-19T18:53:18.870Z] [INFO] Loaded 5 configurations
+[2026-05-19T18:53:18.871Z] [INFO] Starting parallel application generation...
+[2026-05-19T18:53:18.872Z] [INFO] Job added to queue: Surah Al-Fatiha Academy
+[2026-05-19T18:53:18.872Z] [INFO] Job added to queue: Surah Yaseen Institute
+[2026-05-19T18:53:18.873Z] [INFO] Job added to queue: Surah Rahman Center
+[2026-05-19T18:53:18.873Z] [INFO] Job added to queue: Surah Mulk Academy
+[2026-05-19T18:53:18.873Z] [INFO] Job added to queue: Surah Ikhlas Hub
+[2026-05-19T18:53:18.873Z] [INFO] Total jobs queued: 5
+[2026-05-19T18:53:18.874Z] [INFO] Running batch: quran1, quran2, quran3
+[2026-05-19T18:53:19.037Z] [INFO] ✔ quran3 generated in 0.16s
+[2026-05-19T18:53:19.043Z] [INFO] ✔ quran2 generated in 0.17s
+[2026-05-19T18:53:19.046Z] [INFO] ✔ quran1 generated in 0.17s
+[2026-05-19T18:53:19.047Z] [INFO] Running batch: quran4, quran5
+[2026-05-19T18:53:19.184Z] [INFO] ✔ quran4 generated in 0.14s
+[2026-05-19T18:53:19.190Z] [INFO] ✔ quran5 generated in 0.14s
+[2026-05-19T18:53:19.191Z] [INFO] Build Summary — Total: 5 | Completed: 0 | Failed: 0
+[2026-05-19T18:53:19.192Z] [INFO] Setting up 5 applications...
+[2026-05-19T18:53:19.193Z] [INFO] Installing dependencies for Surah Al-Fatiha Academy...
+[2026-05-19T18:53:25.873Z] [INFO] Starting Surah Al-Fatiha Academy on port 3011...
+[2026-05-19T18:53:27.400Z] [INFO] Installing dependencies for Surah Yaseen Institute...
+[2026-05-19T18:53:30.624Z] [INFO] Starting Surah Yaseen Institute on port 3012...
+[2026-05-19T18:53:32.137Z] [INFO] Installing dependencies for Surah Rahman Center...
+[2026-05-19T18:53:34.677Z] [INFO] Starting Surah Rahman Center on port 3013...
+[2026-05-19T18:53:36.204Z] [INFO] Installing dependencies for Surah Mulk Academy...
+[2026-05-19T18:53:38.378Z] [INFO] Starting Surah Mulk Academy on port 3014...
+[2026-05-19T18:53:39.897Z] [INFO] Installing dependencies for Surah Ikhlas Hub...
+[2026-05-19T18:53:42.056Z] [INFO] Starting Surah Ikhlas Hub on port 3015...
+[2026-05-19T18:53:43.579Z] [INFO] ✓ Successfully started 5 applications
+[2026-05-19T18:53:43.593Z] [INFO] Master Dashboard running at http://localhost:8080
+[2026-05-19T19:04:29.584Z] [INFO] ========================================
+[2026-05-19T19:04:29.591Z] [INFO]   ADAGDS — System Starting Up
+[2026-05-19T19:04:29.592Z] [INFO] ========================================
+[2026-05-19T19:04:29.600Z] [INFO] Starting system resource analysis...
+[2026-05-19T19:04:34.595Z] [INFO] CPU: Intel Core™ Ultra 7 256V — 8 cores
+[2026-05-19T19:04:34.596Z] [INFO] RAM: 3GB free of 16GB total
+[2026-05-19T19:04:34.597Z] [INFO] GPU: Intel(R) Arc(TM) 140V GPU (8GB)
+[2026-05-19T19:04:34.599Z] [INFO] Running Adaptive Workload Decision Engine...
+[2026-05-19T19:04:34.599Z] [INFO] Decision Engine Result: Will generate 10 applications
+[2026-05-19T19:04:34.600Z] [INFO] Reason: 8 CPU cores, 3GB free RAM
+[2026-05-19T19:04:34.603Z] [INFO] Loaded 5 configurations
+[2026-05-19T19:04:34.605Z] [INFO] Starting parallel application generation...
+[2026-05-19T19:04:34.609Z] [INFO] Job added to queue: Surah Al-Fatiha Academy
+[2026-05-19T19:04:34.610Z] [INFO] Job added to queue: Surah Yaseen Institute
+[2026-05-19T19:04:34.610Z] [INFO] Job added to queue: Surah Rahman Center
+[2026-05-19T19:04:34.611Z] [INFO] Job added to queue: Surah Mulk Academy
+[2026-05-19T19:04:34.611Z] [INFO] Job added to queue: Surah Ikhlas Hub
+[2026-05-19T19:04:34.611Z] [INFO] Total jobs queued: 5
+[2026-05-19T19:04:34.611Z] [INFO] Running batch: quran1, quran2, quran3
+[2026-05-19T19:04:34.934Z] [INFO] ✔ quran3 generated in 0.31s
+[2026-05-19T19:04:34.938Z] [INFO] ✔ quran2 generated in 0.32s
+[2026-05-19T19:04:34.944Z] [INFO] ✔ quran1 generated in 0.33s
+[2026-05-19T19:04:34.948Z] [INFO] Running batch: quran4, quran5
+[2026-05-19T19:04:35.100Z] [INFO] ✔ quran4 generated in 0.15s
+[2026-05-19T19:04:35.115Z] [INFO] ✔ quran5 generated in 0.17s
+[2026-05-19T19:04:35.116Z] [INFO] Build Summary — Total: 5 | Completed: 0 | Failed: 0
+[2026-05-19T19:04:35.117Z] [INFO] Setting up 5 applications...
+[2026-05-19T19:04:35.119Z] [INFO] Installing dependencies for Surah Al-Fatiha Academy...
+[2026-05-19T19:04:41.964Z] [INFO] Starting Surah Al-Fatiha Academy on port 3011...
+[2026-05-19T19:04:43.479Z] [INFO] Installing dependencies for Surah Yaseen Institute...
+[2026-05-19T19:04:46.254Z] [INFO] Starting Surah Yaseen Institute on port 3012...
+[2026-05-19T19:04:47.782Z] [INFO] Installing dependencies for Surah Rahman Center...
+[2026-05-19T19:04:50.000Z] [INFO] Starting Surah Rahman Center on port 3013...
+[2026-05-19T19:04:51.513Z] [INFO] Installing dependencies for Surah Mulk Academy...
+[2026-05-19T19:04:53.669Z] [INFO] Starting Surah Mulk Academy on port 3014...
+[2026-05-19T19:04:55.186Z] [INFO] Installing dependencies for Surah Ikhlas Hub...
+[2026-05-19T19:04:57.368Z] [INFO] Starting Surah Ikhlas Hub on port 3015...
+[2026-05-19T19:04:58.879Z] [INFO] ✓ Successfully started 5 applications
+[2026-05-19T19:04:58.904Z] [INFO] Master Dashboard running at http://localhost:8080
+[2026-05-19T19:10:21.490Z] [INFO] ========================================
+[2026-05-19T19:10:21.493Z] [INFO]   ADAGDS — System Starting Up
+[2026-05-19T19:10:21.494Z] [INFO] ========================================
+[2026-05-19T19:10:21.495Z] [INFO] Starting system resource analysis...
+[2026-05-19T19:10:26.243Z] [INFO] CPU: Intel Core™ Ultra 7 256V — 8 cores
+[2026-05-19T19:10:26.243Z] [INFO] RAM: 3GB free of 16GB total
+[2026-05-19T19:10:26.244Z] [INFO] GPU: Intel(R) Arc(TM) 140V GPU (8GB)
+[2026-05-19T19:10:26.245Z] [INFO] Running Adaptive Workload Decision Engine...
+[2026-05-19T19:10:26.245Z] [INFO] Decision Engine Result: Will generate 10 applications
+[2026-05-19T19:10:26.246Z] [INFO] Reason: 8 CPU cores, 3GB free RAM
+[2026-05-19T19:10:26.249Z] [INFO] Loaded 5 configurations
+[2026-05-19T19:10:26.251Z] [INFO] Starting parallel application generation...
+[2026-05-19T19:10:26.253Z] [INFO] Job added to queue: Surah Al-Fatiha Academy
+[2026-05-19T19:10:26.254Z] [INFO] Job added to queue: Surah Yaseen Institute
+[2026-05-19T19:10:26.255Z] [INFO] Job added to queue: Surah Rahman Center
+[2026-05-19T19:10:26.255Z] [INFO] Job added to queue: Surah Mulk Academy
+[2026-05-19T19:10:26.255Z] [INFO] Job added to queue: Surah Ikhlas Hub
+[2026-05-19T19:10:26.256Z] [INFO] Total jobs queued: 5
+[2026-05-19T19:10:26.256Z] [INFO] Running batch: quran1, quran2, quran3
+[2026-05-19T19:10:26.452Z] [INFO] ✔ quran3 generated in 0.19s
+[2026-05-19T19:10:26.456Z] [INFO] ✔ quran1 generated in 0.20s
+[2026-05-19T19:10:26.464Z] [INFO] ✔ quran2 generated in 0.20s
+[2026-05-19T19:10:26.467Z] [INFO] Running batch: quran4, quran5
+[2026-05-19T19:10:26.617Z] [INFO] ✔ quran5 generated in 0.15s
+[2026-05-19T19:10:26.618Z] [INFO] ✔ quran4 generated in 0.15s
+[2026-05-19T19:10:26.619Z] [INFO] Build Summary — Total: 5 | Completed: 0 | Failed: 0
+[2026-05-19T19:10:26.619Z] [INFO] Setting up 5 applications...
+[2026-05-19T19:10:26.619Z] [INFO] Installing dependencies for Surah Al-Fatiha Academy...
+[2026-05-19T19:10:32.951Z] [INFO] Starting Surah Al-Fatiha Academy on port 3011...
+[2026-05-19T19:10:34.465Z] [INFO] Installing dependencies for Surah Yaseen Institute...
+[2026-05-19T19:10:36.655Z] [INFO] Starting Surah Yaseen Institute on port 3012...
+[2026-05-19T19:10:38.171Z] [INFO] Installing dependencies for Surah Rahman Center...
+[2026-05-19T19:10:40.279Z] [INFO] Starting Surah Rahman Center on port 3013...
+[2026-05-19T19:10:41.791Z] [INFO] Installing dependencies for Surah Mulk Academy...
+[2026-05-19T19:10:43.883Z] [INFO] Starting Surah Mulk Academy on port 3014...
+[2026-05-19T19:10:45.402Z] [INFO] Installing dependencies for Surah Ikhlas Hub...
+[2026-05-19T19:10:47.592Z] [INFO] Starting Surah Ikhlas Hub on port 3015...
+[2026-05-19T19:10:49.106Z] [INFO] ✓ Successfully started 5 applications
+[2026-05-19T19:10:49.134Z] [INFO] Master Dashboard running at http://localhost:8080

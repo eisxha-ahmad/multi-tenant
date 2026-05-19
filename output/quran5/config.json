@@ -1,0 +1,23 @@
+{
+  "appId": "quran5",
+  "appName": "Surah Ikhlas Hub",
+  "port": 3015,
+  "theme": "dark",
+  "primaryColor": "#1abc9c",
+  "features": [
+    "surah-reading",
+    "translation",
+    "tauheed",
+    "virtues"
+  ],
+  "database": {
+    "type": "sqlite",
+    "name": "ikhlas.db"
+  },
+  "environment": "production",
+  "tenantId": "quran_005",
+  "description": "Learn Surah Al-Ikhlas - The Purity of Faith",
+  "surahName": "Al-Ikhlas",
+  "surahNumber": 112,
+  "verses": 4
+}

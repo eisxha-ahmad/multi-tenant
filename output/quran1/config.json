@@ -1,0 +1,23 @@
+{
+  "appId": "quran1",
+  "appName": "Surah Al-Fatiha Academy",
+  "port": 3011,
+  "theme": "dark",
+  "primaryColor": "#2ecc71",
+  "features": [
+    "surah-reading",
+    "translation",
+    "tafseer",
+    "audio"
+  ],
+  "database": {
+    "type": "sqlite",
+    "name": "alfatiha.db"
+  },
+  "environment": "production",
+  "tenantId": "quran_001",
+  "description": "Learn Surah Al-Fatiha - The Opening Chapter",
+  "surahName": "Al-Fatiha",
+  "surahNumber": 1,
+  "verses": 7
+}
