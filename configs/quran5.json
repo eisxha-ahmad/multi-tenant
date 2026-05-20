@@ -1,10 +1,11 @@
 {
   "appId": "quran5",
-  "appName": "✨ Minimal Quran",
+  "appName": "🎯 Minimal Reader",
   "port": 3015,
   "theme": "light",
   "primaryColor": "#1abc9c",
-  "features": ["reading", "arabic-only", "simple-ui"],
+  "layout": "minimal",
+  "features": ["reading"],
   "tenantId": "tenant_005",
-  "description": "Clean minimal interface for focused reading"
+  "description": "Clean and simple"
 }

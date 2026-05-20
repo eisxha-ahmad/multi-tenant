@@ -1,6 +1,6 @@
-# 🇵🇰 Quran Urdu Tarjuma
+# ✨ Card Design
 
-Quran with Urdu translation by Jalandhry
+Beautiful card style
 
 ## Run
 ```

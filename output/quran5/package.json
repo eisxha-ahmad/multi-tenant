@@ -1,7 +1,7 @@
 {
   "name": "quran5",
   "version": "1.0.0",
-  "description": "Clean minimal interface for focused reading",
+  "description": "Clean and simple",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js"

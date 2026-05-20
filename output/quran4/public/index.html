@@ -6,123 +6,136 @@
   <title>Quran Reader</title>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
-    body {
-      font-family: 'Segoe UI', 'Amiri', 'Scheherazade', serif;
-      background: #0a0f1a;
-      color: #e0e0e0;
-    }
-    .header {
-      background: #1a472a;
-      padding: 20px;
-      text-align: center;
-      border-bottom: 3px solid #2ecc71;
-    }
-    .header h1 { font-size: 24px; }
-    .container { max-width: 800px; margin: 0 auto; padding: 20px; }
-    .surah-item {
-      background: #1a1a2e;
-      margin: 10px 0;
-      padding: 15px;
-      border-radius: 10px;
-      cursor: pointer;
+    
+    /* Base styles */
+    body { font-family: 'Segoe UI', 'Amiri', serif; transition: all 0.3s; }
+    .header { padding: 20px; text-align: center; }
+    .container { max-width: 900px; margin: 0 auto; padding: 20px; }
+    .hide { display: none; }
+    
+    /* Theme: Dark */
+    body.dark { background: #0a0f1a; color: #e0e0e0; }
+    body.dark .header { background: #1a472a; }
+    body.dark .surah-item { background: #1a1a2e; border: 1px solid #2c2c3e; }
+    body.dark .verse { background: #1a1a2e; }
+    
+    /* Theme: Light */
+    body.light { background: #f0f2f5; color: #2c3e50; }
+    body.light .header { background: #2ecc71; color: white; }
+    body.light .surah-item { background: white; border: 1px solid #ddd; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    body.light .verse { background: white; border: 1px solid #eee; }
+    
+    /* Layout: List (rows) - Default */
+    .layout-list .surah-item {
       display: flex;
       justify-content: space-between;
       align-items: center;
+      margin: 10px 0;
+      padding: 15px 20px;
+      border-radius: 12px;
+      cursor: pointer;
     }
-    .surah-item:hover { background: #2a2a3e; }
-    .surah-arabic { font-size: 20px; font-weight: bold; }
-    .surah-english { font-size: 12px; color: #aaa; margin-top: 4px; }
-    .verse-count { font-size: 12px; color: #888; }
+    
+    /* Layout: Grid (columns) */
+    .layout-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 15px;
+    }
+    .layout-grid .surah-item {
+      padding: 20px;
+      border-radius: 12px;
+      cursor: pointer;
+      text-align: center;
+      transition: transform 0.2s;
+    }
+    .layout-grid .surah-item:hover { transform: translateY(-5px); }
+    
+    /* Layout: Cards (modern) */
+    .layout-cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 20px;
+    }
+    .layout-cards .surah-item {
+      padding: 25px 15px;
+      border-radius: 16px;
+      cursor: pointer;
+      text-align: center;
+      backdrop-filter: blur(10px);
+    }
+    .layout-cards .surah-arabic { font-size: 28px; margin-bottom: 10px; }
+    
+    /* Layout: Minimal */
+    .layout-minimal .surah-item {
+      padding: 12px 15px;
+      margin: 5px 0;
+      border-radius: 0;
+      cursor: pointer;
+      border-left: 3px solid;
+    }
+    
+    /* Common styles */
+    .surah-arabic { font-size: 22px; font-weight: bold; font-family: 'Amiri', 'Scheherazade', serif; }
+    .surah-english { font-size: 13px; opacity: 0.7; margin-top: 5px; }
+    .verse-count { font-size: 12px; opacity: 0.6; }
+    .verse { margin: 15px 0; padding: 18px; border-radius: 10px; border-right: 3px solid; }
+    .verse-text { font-size: 22px; text-align: right; direction: rtl; line-height: 1.8; margin-top: 10px; }
+    .translation { font-size: 14px; opacity: 0.7; margin-top: 10px; font-style: italic; }
     .back-btn {
       background: #2ecc71;
-      color: #fff;
+      color: white;
       border: none;
       padding: 10px 20px;
       border-radius: 8px;
       cursor: pointer;
       margin-bottom: 20px;
     }
-    .verse {
-      background: #1a1a2e;
-      margin: 15px 0;
-      padding: 15px;
-      border-radius: 8px;
-      border-right: 3px solid #2ecc71;
-    }
-    .verse-number {
-      background: #2ecc71;
-      display: inline-block;
-      width: 28px;
-      height: 28px;
-      line-height: 28px;
-      text-align: center;
-      border-radius: 50%;
-      font-size: 11px;
-      margin-left: 10px;
-    }
-    .verse-text {
-      font-size: 22px;
-      text-align: right;
-      direction: rtl;
-      margin-top: 10px;
-      line-height: 1.8;
-    }
-    .translation {
-      font-size: 14px;
-      color: #aaa;
-      margin-top: 10px;
-      font-style: italic;
-    }
-    .loading, .error { text-align: center; padding: 50px; }
-    .error { color: #e74c3c; }
-    .hide { display: none; }
-    .feature-badge {
-      position: fixed;
-      bottom: 10px;
-      right: 10px;
-      background: #2ecc71;
-      padding: 5px 10px;
-      border-radius: 20px;
-      font-size: 11px;
-    }
-    <style>
-  /* Theme support */
-  body.dark { background: #0a0f1a; color: #e0e0e0; }
-  body.light { background: #f0f2f5; color: #2c3e50; }
-  
-  body.dark .surah-item { background: #1a1a2e; border: 1px solid #2c2c3e; }
-  body.light .surah-item { background: white; border: 1px solid #ddd; }
-  
-  body.dark .verse { background: #1a1a2e; }
-  body.light .verse { background: white; border: 1px solid #eee; }
-  
-  body.dark .header { background: #1a472a; }
-  body.light .header { background: #2ecc71; }
-</style>
   </style>
 </head>
 <body>
   <div class="header">
-    <h1>📖 Quran Reader</h1>
+    <h1>📖 <span id="appName">Quran Reader</span></h1>
   </div>
   
-  <div id="surahListView">
-    <div class="container">
-      <div id="surahList" class="loading">Loading surahs...</div>
-    </div>
+  <div id="surahListView" class="container">
+    <div id="surahList" class="loading">Loading surahs...</div>
   </div>
   
-  <div id="readerView" class="hide">
-    <div class="container">
-      <button class="back-btn" onclick="showSurahList()">← Back to Surahs</button>
-      <div id="readerContent"></div>
-    </div>
+  <div id="readerView" class="container hide">
+    <button class="back-btn" onclick="showSurahList()">← Back to Surahs</button>
+    <div id="readerContent"></div>
   </div>
-  
-  <div id="featureBadge" class="feature-badge"></div>
 
   <script>
     let allSurahs = [];
+    let appConfig = { theme: 'dark', layout: 'list', primaryColor: '#2ecc71', appName: 'Quran Reader' };
+    
+    // Load app config first
+    async function loadConfig() {
+      try {
+        const res = await fetch('/api/info');
+        const data = await res.json();
+        appConfig = data;
+        
+        // Apply theme
+        document.body.className = data.theme || 'dark';
+        
+        // Apply layout class to surah list container
+        const surahListDiv = document.getElementById('surahList');
+        surahListDiv.className = `layout-${data.layout || 'list'}`;
+        
+        // Set app name
+        document.getElementById('appName').textContent = data.appName || 'Quran Reader';
+        
+        // Set primary color
+        document.documentElement.style.setProperty('--primary', data.primaryColor);
+        
+        console.log('App Config:', data);
+      } catch(err) {
+        console.error('Config load error:', err);
+      }
+    }
     
     async function loadSurahs() {
       try {
@@ -138,17 +151,19 @@
         document.getElementById('surahList').innerHTML = `<div class="error">Error: ${err.message}</div>`;
       }
     }
-
     
     function displaySurahs(surahs) {
-      const list = document.getElementById('surahList');
-      list.innerHTML = surahs.map(s => `
-        <div class="surah-item" onclick="loadSurah(${s.id})">
+      const container = document.getElementById('surahList');
+      container.innerHTML = surahs.map(s => `
+        <div class="surah-item" onclick="loadSurah(${s.id})" style="border-color: ${appConfig.primaryColor}">
           <div>
             <div class="surah-arabic">${s.name_arabic}</div>
             <div class="surah-english">${s.name_simple}</div>
           </div>
-          <div class="verse-count">${s.verses_count} verses</div>
+          <div class="verse-count">
+            ${s.verses_count} verses<br>
+            <small>${s.revelation_type || ''}</small>
+          </div>
         </div>
       `).join('');
     }
@@ -166,19 +181,19 @@
           const content = document.getElementById('readerContent');
           content.innerHTML = `
             <div style="text-align:center; margin-bottom:30px">
-              <h2>${data.surah.arabic_name}</h2>
-              <p>${data.surah.english_name} • ${data.surah.total_verses} verses</p>
+              <h2 style="color: ${appConfig.primaryColor}">${data.surah.arabic_name}</h2>
+              <p>${data.surah.english_name} • ${data.surah.total_verses} verses • ${data.surah.revelation_type || ''}</p>
             </div>
             ${data.surah.verses.map(v => `
-              <div class="verse">
-                <span class="verse-number">${v.number}</span>
+              <div class="verse" style="border-right-color: ${appConfig.primaryColor}">
+                <span style="background: ${appConfig.primaryColor}; display:inline-block; width:28px; height:28px; line-height:28px; text-align:center; border-radius:50%; font-size:12px; margin-left:10px">${v.number}</span>
                 <div class="verse-text">${v.arabic}</div>
                 ${v.translation ? `<div class="translation">📖 ${v.translation}</div>` : ''}
               </div>
             `).join('')}
           `;
         }
-      } catch (err) {
+      } catch(err) {
         document.getElementById('readerContent').innerHTML = `<div class="error">Error: ${err.message}</div>`;
       }
     }
@@ -188,24 +203,14 @@
       document.getElementById('readerView').classList.add('hide');
       loadSurahs();
     }
-      // Fetch theme from API and apply
-  fetch('/api/info')
-    .then(res => res.json())
-    .then(config => {
-      document.body.className = config.theme || 'dark';
-      // Optional: change primary color
-      if (config.primaryColor) {
-        document.documentElement.style.setProperty('--primary', config.primaryColor);
-      }
-    })
-    .catch(() => document.body.className = 'dark');
     
-    // Show feature badge
-    if (window.APP_CONFIG && window.APP_CONFIG.features) {
-      document.getElementById('featureBadge').innerHTML = window.APP_CONFIG.features.join(' • ');
+    // Initialize
+    async function init() {
+      await loadConfig();
+      await loadSurahs();
     }
     
-    loadSurahs();
+    init();
   </script>
 </body>
 </html>

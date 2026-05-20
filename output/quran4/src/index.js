@@ -131,9 +131,10 @@ app.get('/api/info', (req, res) => {
     appId: config.appId,
     tenantId: config.tenantId,
     description: config.description,
-    features: config.features || ['reading'],      // ← ADD THIS
-    theme: config.theme || 'dark',                 // ← ADD THIS
-    primaryColor: config.primaryColor || '#2ecc71', // ← ADD THIS
+    features: config.features || ['reading'],
+    theme: config.theme || 'dark',
+    primaryColor: config.primaryColor || '#2ecc71',
+    layout: config.layout || 'list',  // ← ADD THIS (list/grid/cards/minimal)
     status: 'running'
   });
 });

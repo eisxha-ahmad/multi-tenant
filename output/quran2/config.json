@@ -1,14 +1,14 @@
 {
   "appId": "quran2",
-  "appName": "🌍 Quran English Translation",
+  "appName": "🌐 Grid Explorer",
   "port": 3012,
   "theme": "light",
   "primaryColor": "#3498db",
+  "layout": "grid",
   "features": [
     "reading",
-    "translation",
-    "english"
+    "translation"
   ],
   "tenantId": "tenant_002",
-  "description": "Quran with Sahih International translation"
+  "description": "Modern grid layout"
 }

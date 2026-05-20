@@ -1,6 +1,6 @@
-# 🌍 Quran English Translation
+# 🌐 Grid Explorer
 
-Quran with Sahih International translation
+Modern grid layout
 
 ## Run
 ```

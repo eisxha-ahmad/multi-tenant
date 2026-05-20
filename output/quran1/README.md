@@ -1,6 +1,6 @@
-# 📖 Pure Quran Reading
+# 📖 Classic Reader
 
-Pure Arabic Quran with no translation
+Traditional list view
 
 ## Run
 ```

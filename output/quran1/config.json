@@ -1,13 +1,13 @@
 {
   "appId": "quran1",
-  "appName": "📖 Pure Quran Reading",
+  "appName": "📖 Classic Reader",
   "port": 3011,
   "theme": "dark",
   "primaryColor": "#2ecc71",
+  "layout": "list",
   "features": [
-    "reading",
-    "arabic-only"
+    "reading"
   ],
   "tenantId": "tenant_001",
-  "description": "Pure Arabic Quran with no translation"
+  "description": "Traditional list view"
 }

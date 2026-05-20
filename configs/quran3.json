@@ -1,10 +1,11 @@
 {
   "appId": "quran3",
-  "appName": "🇵🇰 Quran Urdu Tarjuma",
+  "appName": "✨ Card Design",
   "port": 3013,
   "theme": "dark",
   "primaryColor": "#e67e22",
-  "features": ["reading", "translation", "urdu"],
+  "layout": "cards",
+  "features": ["reading"],
   "tenantId": "tenant_003",
-  "description": "Quran with Urdu translation by Jalandhry"
+  "description": "Beautiful card style"
 }

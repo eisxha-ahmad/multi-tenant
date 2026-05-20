@@ -1,7 +1,7 @@
 {
   "name": "quran3",
   "version": "1.0.0",
-  "description": "Quran with Urdu translation by Jalandhry",
+  "description": "Beautiful card style",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js"

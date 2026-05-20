@@ -1,6 +1,6 @@
-# ✨ Minimal Quran
+# 🎯 Minimal Reader
 
-Clean minimal interface for focused reading
+Clean and simple
 
 ## Run
 ```

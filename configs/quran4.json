@@ -1,10 +1,11 @@
 {
   "appId": "quran4",
-  "appName": "📚 Quran Study Edition",
+  "appName": "📚 Study Edition",
   "port": 3014,
   "theme": "dark",
   "primaryColor": "#9b59b6",
-  "features": ["reading", "translation", "english", "tafseer", "search"],
+  "layout": "list",
+  "features": ["reading", "translation", "tafseer"],
   "tenantId": "tenant_004",
-  "description": "Complete study tool with tafseer"
+  "description": "Study focused"
 }

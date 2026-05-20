@@ -1,6 +1,6 @@
-# 📚 Quran Study Edition
+# 📚 Study Edition
 
-Complete study tool with tafseer
+Study focused
 
 ## Run
 ```
