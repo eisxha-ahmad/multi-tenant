@@ -1,23 +1,14 @@
 {
   "appId": "quran5",
-  "appName": "Surah Ikhlas Hub",
+  "appName": "✨ Minimal Quran",
   "port": 3015,
-  "theme": "dark",
+  "theme": "light",
   "primaryColor": "#1abc9c",
   "features": [
-    "surah-reading",
-    "translation",
-    "tauheed",
-    "virtues"
+    "reading",
+    "arabic-only",
+    "simple-ui"
   ],
-  "database": {
-    "type": "sqlite",
-    "name": "ikhlas.db"
-  },
-  "environment": "production",
-  "tenantId": "quran_005",
-  "description": "Learn Surah Al-Ikhlas - The Purity of Faith",
-  "surahName": "Al-Ikhlas",
-  "surahNumber": 112,
-  "verses": 4
+  "tenantId": "tenant_005",
+  "description": "Clean minimal interface for focused reading"
 }

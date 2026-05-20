@@ -1,7 +1,7 @@
 {
   "name": "quran4",
   "version": "1.0.0",
-  "description": "Learn Surah Al-Mulk - The Sovereignty",
+  "description": "Complete study tool with tafseer",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js"

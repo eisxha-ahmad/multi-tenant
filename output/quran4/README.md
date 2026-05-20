@@ -1,6 +1,6 @@
-# Surah Mulk Academy
+# 📚 Quran Study Edition
 
-Learn Surah Al-Mulk - The Sovereignty
+Complete study tool with tafseer
 
 ## Run
 ```

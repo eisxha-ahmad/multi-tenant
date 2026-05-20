@@ -1,7 +1,7 @@
 {
   "name": "quran2",
   "version": "1.0.0",
-  "description": "Learn Surah Yaseen - The Heart of Quran",
+  "description": "Quran with Sahih International translation",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js"

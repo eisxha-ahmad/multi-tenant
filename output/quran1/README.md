@@ -1,6 +1,6 @@
-# Surah Al-Fatiha Academy
+# 📖 Pure Quran Reading
 
-Learn Surah Al-Fatiha - The Opening Chapter
+Pure Arabic Quran with no translation
 
 ## Run
 ```

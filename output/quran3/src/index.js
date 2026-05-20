@@ -124,12 +124,16 @@ app.get('/api/search/:query', async (req, res) => {
 });
 
 // App info
+// App info
 app.get('/api/info', (req, res) => {
   res.json({
     appName: config.appName,
     appId: config.appId,
     tenantId: config.tenantId,
     description: config.description,
+    features: config.features || ['reading'],      // ← ADD THIS
+    theme: config.theme || 'dark',                 // ← ADD THIS
+    primaryColor: config.primaryColor || '#2ecc71', // ← ADD THIS
     status: 'running'
   });
 });

@@ -1,23 +1,16 @@
 {
   "appId": "quran4",
-  "appName": "Surah Mulk Academy",
+  "appName": "📚 Quran Study Edition",
   "port": 3014,
   "theme": "dark",
   "primaryColor": "#9b59b6",
   "features": [
-    "surah-reading",
+    "reading",
     "translation",
-    "protection",
-    "lessons"
+    "english",
+    "tafseer",
+    "search"
   ],
-  "database": {
-    "type": "sqlite",
-    "name": "mulk.db"
-  },
-  "environment": "production",
-  "tenantId": "quran_004",
-  "description": "Learn Surah Al-Mulk - The Sovereignty",
-  "surahName": "Al-Mulk",
-  "surahNumber": 67,
-  "verses": 30
+  "tenantId": "tenant_004",
+  "description": "Complete study tool with tafseer"
 }

@@ -8,59 +8,31 @@
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
       font-family: 'Segoe UI', 'Amiri', 'Scheherazade', serif;
-      background: linear-gradient(135deg, #0a0f1a 0%, #0a1a2a 100%);
+      background: #0a0f1a;
       color: #e0e0e0;
-      min-height: 100vh;
     }
     .header {
-      background: linear-gradient(135deg, #1a472a, #0d2818);
-      padding: 20px 30px;
+      background: #1a472a;
+      padding: 20px;
       text-align: center;
       border-bottom: 3px solid #2ecc71;
-      position: sticky;
-      top: 0;
-      z-index: 100;
     }
-    .header h1 { font-size: 26px; }
-    .header h1 span { color: #2ecc71; }
-    .container { max-width: 900px; margin: 0 auto; padding: 20px; }
+    .header h1 { font-size: 24px; }
+    .container { max-width: 800px; margin: 0 auto; padding: 20px; }
     .surah-item {
-      background: rgba(26, 26, 46, 0.9);
+      background: #1a1a2e;
       margin: 10px 0;
-      padding: 15px 20px;
-      border-radius: 12px;
+      padding: 15px;
+      border-radius: 10px;
       cursor: pointer;
-      transition: all 0.3s;
       display: flex;
       justify-content: space-between;
       align-items: center;
-      border: 1px solid rgba(46, 204, 113, 0.2);
     }
-    .surah-item:hover {
-      background: rgba(46, 204, 113, 0.15);
-      transform: translateX(5px);
-      border-color: #2ecc71;
-    }
-    .surah-number {
-      font-size: 11px;
-      color: #2ecc71;
-      margin-bottom: 5px;
-    }
-    .surah-arabic {
-      font-size: 22px;
-      font-weight: bold;
-      font-family: 'Amiri', 'Scheherazade', serif;
-    }
-    .surah-english {
-      font-size: 13px;
-      color: #aaa;
-      margin-top: 4px;
-    }
-    .verse-count {
-      font-size: 12px;
-      color: #888;
-      text-align: right;
-    }
+    .surah-item:hover { background: #2a2a3e; }
+    .surah-arabic { font-size: 20px; font-weight: bold; }
+    .surah-english { font-size: 12px; color: #aaa; margin-top: 4px; }
+    .verse-count { font-size: 12px; color: #888; }
     .back-btn {
       background: #2ecc71;
       color: #fff;
@@ -69,105 +41,74 @@
       border-radius: 8px;
       cursor: pointer;
       margin-bottom: 20px;
-      font-size: 14px;
-      font-weight: bold;
-    }
-    .back-btn:hover { background: #27ae60; }
-    .surah-title {
-      text-align: center;
-      margin-bottom: 30px;
-      padding-bottom: 20px;
-      border-bottom: 2px solid #2ecc71;
-    }
-    .surah-title-arabic {
-      font-size: 32px;
-      font-weight: bold;
-      font-family: 'Amiri', 'Scheherazade', serif;
-      margin-bottom: 8px;
-    }
-    .surah-title-english {
-      font-size: 16px;
-      color: #aaa;
     }
     .verse {
-      background: rgba(26, 26, 46, 0.6);
+      background: #1a1a2e;
       margin: 15px 0;
-      padding: 18px;
-      border-radius: 10px;
-      transition: all 0.3s;
+      padding: 15px;
+      border-radius: 8px;
       border-right: 3px solid #2ecc71;
     }
-    .verse:hover { background: rgba(46, 204, 113, 0.1); }
     .verse-number {
-      display: inline-block;
       background: #2ecc71;
-      color: #fff;
+      display: inline-block;
       width: 28px;
       height: 28px;
-      text-align: center;
       line-height: 28px;
+      text-align: center;
       border-radius: 50%;
       font-size: 11px;
-      font-weight: bold;
       margin-left: 10px;
     }
     .verse-text {
       font-size: 22px;
-      line-height: 1.8;
-      font-family: 'Amiri', 'Scheherazade', serif;
       text-align: right;
       direction: rtl;
       margin-top: 10px;
+      line-height: 1.8;
     }
     .translation {
       font-size: 14px;
       color: #aaa;
       margin-top: 10px;
-      text-align: left;
       font-style: italic;
     }
-    .loading {
-      text-align: center;
-      padding: 50px;
-      color: #aaa;
-    }
-    .error {
-      text-align: center;
-      padding: 50px;
-      color: #e74c3c;
-    }
+    .loading, .error { text-align: center; padding: 50px; }
+    .error { color: #e74c3c; }
     .hide { display: none; }
-    .footer {
-      text-align: center;
-      padding: 20px;
-      color: #666;
+    .feature-badge {
+      position: fixed;
+      bottom: 10px;
+      right: 10px;
+      background: #2ecc71;
+      padding: 5px 10px;
+      border-radius: 20px;
       font-size: 11px;
     }
-    .search-box {
-      margin-bottom: 20px;
-    }
-    .search-box input {
-      width: 100%;
-      padding: 12px;
-      background: rgba(26, 26, 46, 0.9);
-      border: 1px solid #2c2c3e;
-      color: #fff;
-      border-radius: 8px;
-      font-size: 14px;
-    }
+    <style>
+  /* Theme support */
+  body.dark { background: #0a0f1a; color: #e0e0e0; }
+  body.light { background: #f0f2f5; color: #2c3e50; }
+  
+  body.dark .surah-item { background: #1a1a2e; border: 1px solid #2c2c3e; }
+  body.light .surah-item { background: white; border: 1px solid #ddd; }
+  
+  body.dark .verse { background: #1a1a2e; }
+  body.light .verse { background: white; border: 1px solid #eee; }
+  
+  body.dark .header { background: #1a472a; }
+  body.light .header { background: #2ecc71; }
+</style>
   </style>
 </head>
 <body>
   <div class="header">
-    <h1>📖 <span>Quran</span> Reader</h1>
+    <h1>📖 Quran Reader</h1>
   </div>
   
   <div id="surahListView">
     <div class="container">
-      <div class="search-box">
-        <input type="text" id="searchInput" placeholder="🔍 Search Surah...">
-      </div>
-      <div id="surahList" class="surah-list"></div>
+      <div id="surahList" class="loading">Loading surahs...</div>
     </div>
   </div>
   
@@ -177,53 +118,46 @@
       <div id="readerContent"></div>
     </div>
   </div>
-
-  <div class="footer">
-    <p>📖 Complete Holy Quran • Uthmani Script • Data from alquran.cloud API</p>
-  </div>
+  
+  <div id="featureBadge" class="feature-badge"></div>
 
   <script>
     let allSurahs = [];
     
     async function loadSurahs() {
       try {
-        const response = await fetch('/api/surahs');
-        const data = await response.json();
-        
+        const res = await fetch('/api/surahs');
+        const data = await res.json();
         if (data.success && data.surahs) {
           allSurahs = data.surahs;
           displaySurahs(allSurahs);
         } else {
-          document.getElementById('surahList').innerHTML = '<div class="error">Failed to load surahs. Please check your internet connection.</div>';
+          document.getElementById('surahList').innerHTML = '<div class="error">Failed to load surahs</div>';
         }
       } catch (err) {
         document.getElementById('surahList').innerHTML = `<div class="error">Error: ${err.message}</div>`;
       }
     }
+
     
     function displaySurahs(surahs) {
       const list = document.getElementById('surahList');
-      list.innerHTML = surahs.map(surah => `
-        <div class="surah-item" onclick="loadSurah(${surah.id})">
+      list.innerHTML = surahs.map(s => `
+        <div class="surah-item" onclick="loadSurah(${s.id})">
           <div>
-            <div class="surah-number">Surah ${surah.id}</div>
-            <div class="surah-arabic">${surah.name_arabic}</div>
-            <div class="surah-english">${surah.name_simple}</div>
+            <div class="surah-arabic">${s.name_arabic}</div>
+            <div class="surah-english">${s.name_simple}</div>
           </div>
-          <div class="verse-count">
-            ${surah.verses_count} verses<br>
-            <small>${surah.revelation_type}</small>
-          </div>
+          <div class="verse-count">${s.verses_count} verses</div>
         </div>
       `).join('');
     }
     
     async function loadSurah(id) {
       try {
-        document.getElementById('readerContent').innerHTML = '<div class="loading">Loading surah...</div>';
-        
-        const response = await fetch(`/api/surah/${id}`);
-        const data = await response.json();
+        document.getElementById('readerContent').innerHTML = '<div class="loading">Loading...</div>';
+        const res = await fetch(`/api/surah/${id}`);
+        const data = await res.json();
         
         if (data.success && data.surah) {
           document.getElementById('surahListView').classList.add('hide');
@@ -231,26 +165,21 @@
           
           const content = document.getElementById('readerContent');
           content.innerHTML = `
-            <div class="surah-title">
-              <div class="surah-title-arabic">${data.surah.arabic_name}</div>
-              <div class="surah-title-english">Surah ${data.surah.id}: ${data.surah.english_name}</div>
-              <div class="verse-count">${data.surah.total_verses} verses • ${data.surah.revelation_type}</div>
+            <div style="text-align:center; margin-bottom:30px">
+              <h2>${data.surah.arabic_name}</h2>
+              <p>${data.surah.english_name} • ${data.surah.total_verses} verses</p>
             </div>
-            ${data.surah.verses.map(verse => `
+            ${data.surah.verses.map(v => `
               <div class="verse">
-                <div style="display: flex; align-items: center;">
-                  <span class="verse-number">${verse.number}</span>
-                </div>
-                <div class="verse-text">${verse.arabic}</div>
-                ${verse.translation ? `<div class="translation">📖 ${verse.translation}</div>` : ''}
+                <span class="verse-number">${v.number}</span>
+                <div class="verse-text">${v.arabic}</div>
+                ${v.translation ? `<div class="translation">📖 ${v.translation}</div>` : ''}
               </div>
             `).join('')}
           `;
-        } else {
-          alert('Surah not found');
         }
       } catch (err) {
-        alert('Error loading surah: ' + err.message);
+        document.getElementById('readerContent').innerHTML = `<div class="error">Error: ${err.message}</div>`;
       }
     }
     
@@ -259,24 +188,23 @@
       document.getElementById('readerView').classList.add('hide');
       loadSurahs();
     }
-    
-    // Search functionality
-    document.getElementById('searchInput').addEventListener('input', function(e) {
-      const query = e.target.value.toLowerCase();
-      if (query.length < 2) {
-        displaySurahs(allSurahs);
-        return;
+      // Fetch theme from API and apply
+  fetch('/api/info')
+    .then(res => res.json())
+    .then(config => {
+      document.body.className = config.theme || 'dark';
+      // Optional: change primary color
+      if (config.primaryColor) {
+        document.documentElement.style.setProperty('--primary', config.primaryColor);
       }
-      
-      const filtered = allSurahs.filter(surah => 
-        surah.name_simple.toLowerCase().includes(query) ||
-        surah.name_arabic.toLowerCase().includes(query) ||
-        surah.id.toString().includes(query)
-      );
-      displaySurahs(filtered);
-    });
+    })
+    .catch(() => document.body.className = 'dark');
     
-    // Load surahs when page loads
+    // Show feature badge
+    if (window.APP_CONFIG && window.APP_CONFIG.features) {
+      document.getElementById('featureBadge').innerHTML = window.APP_CONFIG.features.join(' • ');
+    }
+    
     loadSurahs();
   </script>
 </body>

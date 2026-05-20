@@ -1,6 +1,6 @@
-# Surah Rahman Center
+# 🇵🇰 Quran Urdu Tarjuma
 
-Learn Surah Ar-Rahman - The Most Merciful
+Quran with Urdu translation by Jalandhry
 
 ## Run
 ```

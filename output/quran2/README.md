@@ -1,6 +1,6 @@
-# Surah Yaseen Institute
+# 🌍 Quran English Translation
 
-Learn Surah Yaseen - The Heart of Quran
+Quran with Sahih International translation
 
 ## Run
 ```

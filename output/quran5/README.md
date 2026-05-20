@@ -1,6 +1,6 @@
-# Surah Ikhlas Hub
+# ✨ Minimal Quran
 
-Learn Surah Al-Ikhlas - The Purity of Faith
+Clean minimal interface for focused reading
 
 ## Run
 ```

@@ -1,15 +1,10 @@
 {
   "appId": "quran2",
-  "appName": "Surah Yaseen Institute",
+  "appName": "🌍 Quran English Translation",
   "port": 3012,
-  "theme": "dark",
+  "theme": "light",
   "primaryColor": "#3498db",
-  "features": ["surah-reading", "translation", "tafseer", "blessings"],
-  "database": { "type": "sqlite", "name": "yaseen.db" },
-  "environment": "production",
-  "tenantId": "quran_002",
-  "description": "Learn Surah Yaseen - The Heart of Quran",
-  "surahName": "Yaseen",
-  "surahNumber": 36,
-  "verses": 83
+  "features": ["reading", "translation", "english"],
+  "tenantId": "tenant_002",
+  "description": "Quran with Sahih International translation"
 }

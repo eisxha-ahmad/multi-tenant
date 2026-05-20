@@ -23,6 +23,13 @@ async function generateApp() {
       console.log(`⚠️ Quran database not found at ${quranDbSource}`);
     }
 
+    // Copy Quran JSON data to each app
+const quranDataSrc = path.join(__dirname, '../data/quran');
+const quranDataDest = path.join(appDir, 'data/quran');
+if (await fs.pathExists(quranDataSrc)) {
+  await fs.copy(quranDataSrc, quranDataDest);
+  console.log(`✓ Quran JSON data copied to ${appDir}`);
+}
     // Write config.json
     await fs.writeJSON(path.join(appDir, 'config.json'), config, { spaces: 2 });
 
